@@ -308,11 +308,14 @@
       "blackbox",
       "BMS",
       "BMSThomas",
+      "BOB",
+      "BOB57",
       "botgrinder",
       "brushless",
       "Caddx",
       "camera",
       "camera_control",
+      "Centurion",
       "Cgo",
       "Chief",
       "Chimera",
@@ -494,6 +497,7 @@
       "profile",
       "ProTek",
       "ProTek 60 Pro",
+      "Proxima",
       "Pure Race",
       "quaddiction",
       "quick",
@@ -4156,6 +4160,74 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.4/bnf/iFlight/Centurion/Centurion O3 O4 Crsf 4.4.x.txt",
+      "hash": "5e9fd234518f79a37648d42e7d4978a8fb816d46b42ab9d307e8ef2bf3691feb",
+      "title": "Centurion O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Centurion"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/bnf/iFlight/Centurion/Centurion O3 O4 DJI 4.4.x.txt",
+      "hash": "13c3a53beacd79726860c540f6bcbc9b7b184e31b2c678d4b3eb8b3fde2c0322",
+      "title": "Centurion O3/O4 DJI RC",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Centurion"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/bnf/iFlight/Proxima/PROXIMA O3_O4 CRSF 4.4.x.txt",
+      "hash": "e4275c673038a202c67f6b220c5be111f1691dc7db7a623d023c93f09fe6f10a",
+      "title": "Proxima O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Proxima"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.4/bnf/iFlight/Proxima/PROXIMA O3_O4 DJI 4.4.x.txt",
+      "hash": "dbb743220dfc75ed0709a82480c6454efa42c73b500b70d0140c5f55d94ff07c",
+      "title": "Proxima O3/O4 DJI RC",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Proxima"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/filters/aos_rc/aos_3.5_filters.txt",
       "hash": "7e6093be6d2aec003d2e8aa2d5662c2685fc89ee8ec1f31bf4b637913acc9d30",
       "title": "AOS 3.5 Filters",
@@ -5805,6 +5877,42 @@
         "Alpha 85",
         "Alpha",
         "A85"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/BOB57/BOB57 O3_O4 CRSF 4.5.x.txt",
+      "hash": "d94276ef5735b48a6dab63eb57fd3e234b8f020ea3debb7a9530595356fd5bfc",
+      "title": "BOB57 O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "BOB57",
+        "BOB"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/BOB57/BOB57 O3_O4 SBUS 4.5.x.txt",
+      "hash": "c9c999bfc540194d30fe4a5913aad1ab6886bb8b21890990217c9b0003f5eea3",
+      "title": "BOB57 O3/O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "BOB57",
+        "BOB"
       ],
       "author": "iFlight",
       "force_options_review": true,
