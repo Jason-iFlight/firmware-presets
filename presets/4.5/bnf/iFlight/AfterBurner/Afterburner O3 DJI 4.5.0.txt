@@ -1,0 +1,195 @@
+#$ TITLE:Afterburner O3/O4 DJI RC
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS:iFlight,Afterburner
+#$ AUTHOR: iFlight
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://github.com/Jason-iFlight/firmware-presets/blob/iFlight/Logo.png?raw=true" width="150px" style="display: block; float: right;"/></a>
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Please read instructions carefully! All factory default options have been selected automatically!
+#$ DESCRIPTION: 
+#$ DESCRIPTION:
+#$ DESCRIPTION: WARNING:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* SBUS protocol MUST BE SELECTED when flashing Betaflight 4.5.x.
+#$ DESCRIPTION:* NOT FOR BEGINNERS! Only for experienced users!
+#$ DESCRIPTION:
+#$ DESCRIPTION: How to:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* Flash Betaflight 4.5.x with Radio Protocol "SBUS" selected
+#$ DESCRIPTION:* Come back & apply this Preset
+#$ DESCRIPTION:* Flash a RC_LINK Preset that fits your Radio Link
+#$ DESCRIPTION:* Calibrate the Accelerometer (Betaflight page1)
+#$ DESCRIPTION:* Change Canvas Mode to HD on your DJI Goggle (Settings-Display-)
+#$ DESCRIPTION:* Remove permanent Angle Mode if necessary (Modes)
+#$ DESCRIPTION:* Have Fun!
+#$ DESCRIPTION:* -
+#$ DESCRIPTION:
+#$ WARNING: You've read the information attached to these factory defaults and take full responsibility for your own gear! Do a test flight in confined area after updating!
+#$ DISCUSSION: https://github.com/Jason-iFlight/firmware-presets
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION BEGIN (CHECKED): Wipe All
+defaults nosave
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Apply All
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.5.0 Mar 17 2024 / 16:42:43 (f1cbd83f0) MSP API: 1.46
+# config rev: a052dc8
+
+# start the command batch
+batch start
+
+board_name IFLIGHT_BLITZ_F722
+manufacturer_id IFRC
+
+# name: Afterburner
+
+# feature
+feature GPS
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 0 131073 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+serial 3 2 115200 115200 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 900 2100 0 0
+
+# master
+set osd_cap_alarm = 20000
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 400
+set dyn_notch_count = 2
+set dyn_notch_q = 400
+set dyn_notch_min_hz = 50
+set dyn_notch_max_hz = 450
+set gyro_lpf1_dyn_min_hz = 0
+set acc_calibration = 62,27,2,1
+set mag_hardware = NONE
+set rc_smoothing_auto_factor = 140
+set rc_smoothing_setpoint_cutoff = 12
+set rc_smoothing_feedforward_cutoff = 12
+set blackbox_sample_rate = 1/16
+set dshot_bidir = ON
+set dshot_bitbang = OFF
+set failsafe_recovery_delay = 10
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_sbas_mode = AUTO
+set gps_ublox_use_galileo = ON
+set gps_rescue_allow_arming_without_fix = ON
+set pid_process_denom = 2
+set simplified_gyro_filter = OFF
+set osd_warn_bitmask = 73727
+set osd_link_quality_alarm = 80
+
+set osd_alt_alarm = 120
+set osd_tim1 = 15360
+set osd_tim2 = 15361
+set osd_vbat_pos = 391
+set osd_rssi_pos = 152
+set osd_link_quality_pos = 481
+set osd_link_tx_power_pos = 24
+set osd_tim_1_pos = 392
+set osd_tim_2_pos = 2096
+set osd_flymode_pos = 2620
+set osd_throttle_pos = 2581
+set osd_vtx_channel_pos = 373
+set osd_current_pos = 2571
+set osd_mah_drawn_pos = 2613
+set osd_craft_name_pos = 384
+set osd_gps_speed_pos = 2588
+set osd_gps_lon_pos = 2113
+set osd_gps_lat_pos = 2081
+set osd_gps_sats_pos = 3120
+set osd_home_dir_pos = 2106
+set osd_home_dist_pos = 2110
+set osd_flight_dist_pos = 3112
+set osd_altitude_pos = 18529
+set osd_power_pos = 2465
+set osd_warnings_pos = 14645
+set osd_avg_cell_voltage_pos = 2603
+set osd_disarmed_pos = 2391
+set osd_efficiency_pos = 392
+set osd_stat_bitmask = 13860
+set osd_displayport_device = MSP
+set debug_mode = GYRO_SCALED
+set vcd_video_system = HD
+set displayport_msp_fonts = 0,0,0,0
+set gyro_1_sensor_align = CW180
+set gyro_1_align_yaw = 1800
+set gyro_2_bustype = SPI
+set gyro_2_sensor_align = CW0
+set rpm_filter_weights = 100,20,90
+set rpm_filter_q = 550
+set craft_name = Afterburner
+set osd_canvas_width = 53
+set osd_canvas_height = 20
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 0
+set dterm_lpf1_type = PT2
+set dterm_lpf1_static_hz = 86
+set dterm_lpf2_static_hz = 0
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 85
+set pidsum_limit = 1000
+set p_pitch = 71
+set i_pitch = 127
+set d_pitch = 53
+set f_pitch = 208
+set p_roll = 71
+set i_roll = 127
+set d_roll = 52
+set f_roll = 211
+set p_yaw = 71
+set i_yaw = 127
+set f_yaw = 211
+set angle_p_gain = 75
+set angle_limit = 55
+set horizon_level_strength = 60
+set horizon_limit_sticks = 50
+set d_min_roll = 52
+set d_min_pitch = 53
+set thrust_linear = 25
+set feedforward_averaging = 3_POINT
+set dyn_idle_min_rpm = 38
+set simplified_master_multiplier = 160
+set simplified_d_gain = 110
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 110
+set simplified_pitch_d_gain = 90
+set simplified_pitch_pi_gain = 95
+set simplified_dterm_filter_multiplier = 115
+set tpa_mode = PD
+set tpa_breakpoint = 1300
+
+rateprofile 0
+
+# rateprofile 0
+set roll_rc_rate = 2
+set pitch_rc_rate = 2
+set yaw_rc_rate = 2
+set roll_srate = 45
+set pitch_srate = 45
+set yaw_srate = 45
+
+# end the command batch
+batch end
+#$ OPTION END

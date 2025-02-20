@@ -281,6 +281,7 @@
       "Acrobaix",
       "actual",
       "adjustments",
+      "Afterburner",
       "air",
       "air unit",
       "akk",
@@ -413,11 +414,13 @@
       "HDOSD",
       "HDzero",
       "Headsup",
+      "Helion",
       "HighKV",
       "hot",
       "HS5",
       "HV",
       "iFlight",
+      "IH3",
       "IllusionFpv",
       "immersion",
       "immersionRC",
@@ -5883,6 +5886,40 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/AfterBurner/Afterburner O3 CRSF 4.5.0.txt",
+      "hash": "7a2052647d1410fd57c94a6336adcd3bf5c9849552cb50227151ce822c98c660",
+      "title": "Afterburner O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Afterburner"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/AfterBurner/Afterburner O3 DJI 4.5.0.txt",
+      "hash": "b54c7676d3b9f6b80f2896d846600dc3ecef4e82504143a0da806557e5d9f1a4",
+      "title": "Afterburner O3/O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Afterburner"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/BOB57/BOB57 O3_O4 CRSF 4.5.x.txt",
       "hash": "d94276ef5735b48a6dab63eb57fd3e234b8f020ea3debb7a9530595356fd5bfc",
       "title": "BOB57 O3/O4 ELRS/CRSF",
@@ -6201,6 +6238,74 @@
         "iFlight",
         "Defender 25",
         "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Helion 10/Helion O3 CRSF 4.5.x.txt",
+      "hash": "d8f3fac7d926045f92edec431c74fbc5778b99e2000cc84279a3e3193e559bbc",
+      "title": "Helion O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Helion"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Helion 10/Helion O3 DJI 4.5.x.txt",
+      "hash": "1c70606a014a1505e740ba3c3d9db8e4553df3544fb10f9ac576f69ac8fbbdee",
+      "title": "Helion O3/O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Helion"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/IH3/iH3 O3 DJI 4.5.1.txt",
+      "hash": "e2f03fe30d5269ce03e2cdb501bd93287410010d0c90689718da8640de223c4b",
+      "title": "IH3 O3/O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "IH3"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/IH3/iH3 O3 ELRS 4.5.1.txt",
+      "hash": "5f911e3f6963264acec461b1b66c617c3a67844862b6a63f13431fa1a3d4b282",
+      "title": "IH3 O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "IH3"
       ],
       "author": "iFlight",
       "force_options_review": true,

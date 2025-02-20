@@ -1,0 +1,151 @@
+#$ TITLE:IH3 O3/O4 DJI RC
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS:iFlight,IH3
+#$ AUTHOR: iFlight
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://github.com/Jason-iFlight/firmware-presets/blob/iFlight/Logo.png?raw=true" width="150px" style="display: block; float: right;"/></a>
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Please read instructions carefully! All factory default options have been selected automatically!
+#$ DESCRIPTION: 
+#$ DESCRIPTION:
+#$ DESCRIPTION: WARNING:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* SBUS protocol MUST BE SELECTED when flashing Betaflight 4.5.x.
+#$ DESCRIPTION:* NOT FOR BEGINNERS! Only for experienced users!
+#$ DESCRIPTION:
+#$ DESCRIPTION: How to:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* Flash Betaflight 4.5.x with Radio Protocol "SBUS" selected
+#$ DESCRIPTION:* Come back & apply this Preset
+#$ DESCRIPTION:* Flash a RC_LINK Preset that fits your Radio Link
+#$ DESCRIPTION:* Calibrate the Accelerometer (Betaflight page1)
+#$ DESCRIPTION:* Change Canvas Mode to HD on your DJI Goggle (Settings-Display-)
+#$ DESCRIPTION:* Remove permanent Angle Mode if necessary (Modes)
+#$ DESCRIPTION:* Have Fun!
+#$ DESCRIPTION:* -
+#$ DESCRIPTION:
+#$ WARNING: You've read the information attached to these factory defaults and take full responsibility for your own gear! Do a test flight in confined area after updating!
+#$ DISCUSSION: https://github.com/Jason-iFlight/firmware-presets
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION BEGIN (CHECKED): Wipe All
+defaults nosave
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Apply All
+
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.5.1 Aug 22 2024 / 03:47:11 (77d01ba3b) MSP API: 1.46
+# config rev: cf83f5e
+
+# start the command batch
+batch start
+
+board_name IFLIGHT_BLITZ_F722
+manufacturer_id IFRC
+
+# name: IH 3
+
+# feature
+feature GPS
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 0 131073 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+serial 3 2 115200 115200 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 0 900 2100 0 0
+
+# master
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set mag_hardware = NONE
+set rc_smoothing_auto_factor = 140
+set rc_smoothing_setpoint_cutoff = 25
+set rc_smoothing_feedforward_cutoff = 25
+set blackbox_sample_rate = 1/16
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_output_reordering = 3,2,1,0,4,5,6,7
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_sbas_mode = AUTO
+set gps_ublox_use_galileo = ON
+set gps_rescue_ground_speed = 1100
+set gps_rescue_min_sats = 5
+set pid_process_denom = 2
+set osd_link_quality_alarm = 70
+set osd_cap_alarm = 20000
+set osd_rssi_pos = 152
+set osd_link_quality_pos = 2619
+set osd_link_tx_power_pos = 24
+set osd_tim_2_pos = 2599
+set osd_flymode_pos = 398
+set osd_throttle_pos = 245
+set osd_vtx_channel_pos = 373
+set osd_current_pos = 353
+set osd_mah_drawn_pos = 386
+set osd_craft_name_pos = 384
+set osd_gps_speed_pos = 3498
+set osd_gps_sats_pos = 3530
+set osd_home_dir_pos = 2554
+set osd_home_dist_pos = 3562
+set osd_altitude_pos = 18919
+set osd_power_pos = 388
+set osd_warnings_pos = 14869
+set osd_avg_cell_voltage_pos = 2567
+set osd_disarmed_pos = 2391
+set debug_mode = GYRO_SCALED
+set gyro_1_sensor_align = CW180
+set gyro_1_align_yaw = 1800
+set craft_name = IH 3
+
+profile 0
+
+# profile 0
+set vbat_sag_compensation = 100
+set iterm_relax_cutoff = 10
+set pidsum_limit = 1000
+set p_pitch = 59
+set i_pitch = 106
+set d_pitch = 92
+set f_pitch = 232
+set p_roll = 43
+set i_roll = 78
+set d_roll = 72
+set f_roll = 171
+set p_yaw = 43
+set i_yaw = 78
+set f_yaw = 171
+set angle_limit = 45
+set d_min_roll = 54
+set d_min_pitch = 68
+set feedforward_smooth_factor = 30
+set feedforward_jitter_factor = 12
+set simplified_master_multiplier = 130
+set simplified_d_gain = 140
+set simplified_pi_gain = 75
+set simplified_feedforward_gain = 110
+set simplified_pitch_d_gain = 110
+set simplified_pitch_pi_gain = 130
+
+rateprofile 0
+
+# end the command batch
+batch end
+# 
+#$ OPTION END
