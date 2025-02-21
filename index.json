@@ -5992,6 +5992,40 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/Chimera7 Pro V2/Chimera7 Pro V2 O3 O4 CRSF 4.5.0.txt",
+      "hash": "39f1299523e6c3831def9a7530c77ce0dfce64bdd6c3f01e1ff7b7e4af8dbb98",
+      "title": "Chimera 7 Pro V2 O3/O4 CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iflight",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Chimera7 Pro V2/Chimera7 Pro V2 O3 O4 DJI 4.5.0.txt",
+      "hash": "15e7e00f105bfa375e37577ecb65d0b76e1004257fa34f75aea12b20380e911d",
+      "title": "Chimera 7 Pro V2 O3/O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iflight",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/Chimera9 Pro/Chimera9 Pro Analog（1.6w vtx） ELRS.txt",
       "hash": "ff863d1a023e914b2616347dc40c04bf85c8237b2c508c78bdde8fd76aaec51e",
       "title": "Chimera 9 Pro Analog 1.6w vtx CRSF/ELRS",
@@ -6244,7 +6278,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Helion 10/Helion O3 CRSF 4.5.x.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Helion 10/Helion O3 O4 CRSF 4.5.x.txt",
       "hash": "d8f3fac7d926045f92edec431c74fbc5778b99e2000cc84279a3e3193e559bbc",
       "title": "Helion O3/O4 ELRS/CRSF",
       "firmware_version": [
@@ -6261,7 +6295,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Helion 10/Helion O3 DJI 4.5.x.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Helion 10/Helion O3 O4 DJI 4.5.x.txt",
       "hash": "1c70606a014a1505e740ba3c3d9db8e4553df3544fb10f9ac576f69ac8fbbdee",
       "title": "Helion O3/O4 DJI RC",
       "firmware_version": [
@@ -6278,7 +6312,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/IH3/iH3 O3 DJI 4.5.1.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/IH3/iH3 O3 O4 DJI 4.5.1.txt",
       "hash": "e2f03fe30d5269ce03e2cdb501bd93287410010d0c90689718da8640de223c4b",
       "title": "IH3 O3/O4 DJI RC",
       "firmware_version": [
@@ -6295,7 +6329,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/IH3/iH3 O3 ELRS 4.5.1.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/IH3/iH3 O3 O4 ELRS 4.5.1.txt",
       "hash": "5f911e3f6963264acec461b1b66c617c3a67844862b6a63f13431fa1a3d4b282",
       "title": "IH3 O3/O4 ELRS/CRSF",
       "firmware_version": [
@@ -6392,7 +6426,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Nazgul DC5 ECO/Nazgul DC5 ECO O3_4 CRSF 4.5.x.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Nazgul DC5 ECO/Nazgul DC5 ECO O3 O4 CRSF 4.5.x.txt",
       "hash": "bffdd76c45ea7a40f8fb418e5bac51194e052211e4d7cf65a7d23ff844f60dc5",
       "title": "Nazgul DC5 ECO O3/O4 ELRS/CRSF",
       "firmware_version": [
@@ -6411,7 +6445,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Nazgul DC5 ECO/Nazgul DC5 ECO O3_4 DJI 4.5.x.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Nazgul DC5 ECO/Nazgul DC5 ECO O3 O4 DJI 4.5.x.txt",
       "hash": "487f6e010ed8d8bc7b3cbb49677c6e85d915045b98c71515dca2181fe0d125f7",
       "title": "Nazgul DC5 ECO O3/O4 DJI RC",
       "firmware_version": [
@@ -6487,7 +6521,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F5 V2/F5 V2 O3 DJI 4.5.0.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F5 V2/F5 V2 O3 O4 DJI 4.5.0.txt",
       "hash": "8dcdb8ea25b9a73133326a3dd66442ad0247df1e29f23b7d8c3d41fab29e4296",
       "title": "Nazgul F5 V2 O3 DJI RC",
       "firmware_version": [
@@ -6506,7 +6540,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F5 V2/F5 V2 O3 ELRS 4.5.0.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F5 V2/F5 V2 O3 O4 ELRS 4.5.0.txt",
       "hash": "2fffe53b6f9836f83b725ac92c6c274b2b10028da0925b784be2be4ff7ab5d8b",
       "title": "Nazgul F5 V2 O3 CRSF/ELRS",
       "firmware_version": [
@@ -6582,7 +6616,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F6 V2/F6 V2 O3 DJI 4.5.0.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F6 V2/F6 V2 O3 O4 DJI 4.5.0.txt",
       "hash": "65655408c03a76a58aa939500b9483738b453e1e62a013fb9fc2382492ae231b",
       "title": "Nazgul F6 V2 DJI RC",
       "firmware_version": [
@@ -6601,7 +6635,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F6 V2/F6 V2 O3 ELRS 4.5.0.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F6 V2/F6 V2 O3 O4 ELRS 4.5.0.txt",
       "hash": "c5d2193f246bc5a1c49f9d468217c031c4876a81623038ae68dca53061cd2fa1",
       "title": "Nazgul F6 V2 O3 CRSF/ELRS",
       "firmware_version": [
@@ -6658,9 +6692,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Nazgul XL5 ECO/Nazgul XL5 ECO O3_4 CRSF 4.5.x.txt",
-      "hash": "5889ffd79a5554775f3c046cbbddf2ad7ac1c31eaaa1b686dceb8b138db167b5",
-      "title": "Nazgul XL5 ECO O3/O4 ELRS/CRSF",
+      "fullPath": "presets/4.5/bnf/iFlight/Nazgul XL5 ECO/Nazgul XL5 ECO Analog CRSF 4.5.x.txt",
+      "hash": "453d69977a5a58941fd2c81dfdb030f984440419c76925f1261c9ea85ddcc5c8",
+      "title": "Nazgul XL5 ECO Analog 1.6w vtx ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
@@ -6677,9 +6711,43 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Nazgul XL5 ECO/Nazgul XL5 ECO O3_4 DJI 4.5.x.txt",
-      "hash": "fcbd0057861cc7043e4982d782ce06f38b4ecd9d7b0cee08b23c4535e97e6747",
-      "title": "Nazgul XL5 ECO O3/O4 DJI RC",
+      "fullPath": "presets/4.5/bnf/iFlight/Protek 35/ProTek35 Analog 1.6w vtx CRSF 4.5.x.txt",
+      "hash": "e6ebb8bb7d7fc09bedf0d72ac2232b9a137a0fa6f6fd10fe05cc8e65369702fb",
+      "title": "ProTek 35 V1.4 Analog 1.6w vtx CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iflight",
+        "ProTek"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Protek 35/ProTek35 Analog 600mW vtx CRSF 4.5.x.txt",
+      "hash": "080506d853f10c18fa95423429dee5a5ea63118de33e6889bad30fdf33259a89",
+      "title": "ProTek 35 V1.4 Analog 600mW vtx CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iflight",
+        "ProTek"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Protek 35/ProTek35 O3 CRSF 4.5.x.txt",
+      "hash": "5caf5764fcd7657ac3b743ff14b80ea24c9e8f2a29d185a9a39cee98f09ff91e",
+      "title": "Protek 35 O3/O4 ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
@@ -6687,9 +6755,58 @@
       "status": "EXPERIMENTAL",
       "keywords": [
         "iFlight",
-        "Nazgul XL5 ECO",
-        "Nazgul",
-        "ECO"
+        "Protek"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Protek 35/ProTek35 O3 DJI 4.5.x.txt",
+      "hash": "c35e2d88ac67001af08adbd3abe1f30b5ec6838a5d2ad012ebe9ee63bf250fc9",
+      "title": "Protek 35 O3/O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Protek"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Protek 35/ProTek35 Vista CRSF 4.5.x.txt",
+      "hash": "96818c00a28fead739e09dcf255200611858ffb38b325a89f5358c628f853cc5",
+      "title": "Protek 35 Vista ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Protek"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Protek 35/ProTek35 Vista DJI 4.5.x.txt",
+      "hash": "d812ef8a32db0efd7e4ddc7fe99ebb9aea4faf60bb530230ec95347b2cc7e98d",
+      "title": "Protek 35 Vista DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Protek"
       ],
       "author": "iFlight",
       "force_options_review": true,
@@ -6732,7 +6849,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro/Taurus X8 Pro O3 DJI 4.5.0.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro/Taurus X8 Pro O3 O4 DJI 4.5.0.txt",
       "hash": "0c3ac1a48e51fe364ff9bddb18d446808ac16781e8dfd28f8a6563b37c065ee2",
       "title": "Taurus X8 PRO DJI RC",
       "firmware_version": [
@@ -6751,7 +6868,7 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro/Taurus X8 Pro O3 ELRS 4.5.0.txt",
+      "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro/Taurus X8 Pro O3 O4 ELRS 4.5.0.txt",
       "hash": "2a609cdb772542116b56df1202bc05ee73bbad43d5a618afe871588ba9ed6be0",
       "title": "Taurus X8 PRO CRSF/ELRS",
       "firmware_version": [

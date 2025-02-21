@@ -1,4 +1,4 @@
-#$ TITLE:Nazgul XL5 ECO O3/O4 DJI RC
+#$ TITLE:Nazgul XL5 ECO Analog 1.6w vtx ELRS/CRSF
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: BNF
 #$ STATUS: EXPERIMENTAL
@@ -7,7 +7,7 @@
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://github.com/Jason-iFlight/firmware-presets/blob/iFlight/Logo.png?raw=true" width="150px" style="display: block; float: right;"/></a>
+#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://user-images.githubusercontent.com/31681897/180714478-44bcd30e-8c78-4c6d-b295-8dbeb0d263f4.png" width="150px" style="display: block; float: right;"/></a>
 #$ DESCRIPTION:
 #$ DESCRIPTION: 
 #$ DESCRIPTION: Please read instructions carefully! All factory default options have been selected automatically!
@@ -15,22 +15,21 @@
 #$ DESCRIPTION:
 #$ DESCRIPTION: WARNING:
 #$ DESCRIPTION:-------------
-#$ DESCRIPTION:* SBUS protocol MUST BE SELECTED when flashing Betaflight 4.5.x.
+#$ DESCRIPTION:* CRSF protocol MUST BE SELECTED when flashing Betaflight 4.5.x.
 #$ DESCRIPTION:* NOT FOR BEGINNERS! Only for experienced users!
 #$ DESCRIPTION:
 #$ DESCRIPTION: How to:
 #$ DESCRIPTION:-------------
-#$ DESCRIPTION:* Flash Betaflight 4.5.x with Radio Protocol "SBUS" selected
+#$ DESCRIPTION:* Flash Betaflight 4.5.x with Radio Protocol "CRSF" selected
 #$ DESCRIPTION:* Come back & apply this Preset
 #$ DESCRIPTION:* Flash a RC_LINK Preset that fits your Radio Link
 #$ DESCRIPTION:* Calibrate the Accelerometer (Betaflight page1)
-#$ DESCRIPTION:* Change Canvas Mode to HD on your DJI Goggle (Settings-Display-)
 #$ DESCRIPTION:* Remove permanent Angle Mode if necessary (Modes)
 #$ DESCRIPTION:* Have Fun!
 #$ DESCRIPTION:* -
 #$ DESCRIPTION:
 #$ WARNING: You've read the information attached to these factory defaults and take full responsibility for your own gear! Do a test flight in confined area after updating!
-#$ DISCUSSION: https://github.com/Jason-iFlight/firmware-presets
+#$ DISCUSSION: https://github.com/XING-IF/firmware-presets/
 
 #$ FORCE_OPTIONS_REVIEW: TRUE
 
@@ -40,9 +39,10 @@ defaults nosave
 
 
 #$ OPTION BEGIN (CHECKED): Apply All
+
 # version
-# Betaflight / AT32F435G (A435) 4.5.1 Dec 17 2024 / 10:51:18 (77d01ba3b) MSP API: 1.46
-# config rev: d32d763
+# Betaflight / AT32F435G (A435) 4.5.1 Dec  2 2024 / 02:32:10 (77d01ba3b) MSP API: 1.46
+# config rev: cb1d3ac
 
 # start the command batch
 batch start
@@ -50,15 +50,16 @@ batch start
 board_name IFLIGHT_BLITZ_F435
 manufacturer_id IFRC
 
-# name: Nazgul XL5 ECO
+# name: Nazgul5 XL5 ECO
 
 # feature
 feature GPS
+feature TELEMETRY
 feature LED_STRIP
 feature OSD
 
 # serial
-serial 0 131073 115200 57600 0 115200
+serial 0 8192 115200 57600 0 115200
 serial 3 2 115200 115200 0 115200
 
 # beacon
@@ -67,113 +68,124 @@ beacon RX_SET
 
 # led
 led 0 0,0::L:0
+led 1 1,0::L:0
+led 2 2,0::L:0
+led 3 3,0::L:0
 
 # aux
 aux 0 0 0 1700 2100 0 0
 aux 1 1 1 900 2100 0 0
 
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665    0 5885 5905    0    0
+vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable powerlevels 4
+vtxtable powervalues 25 400 800 1600
+vtxtable powerlabels 25 400 800 1K6
+
 # master
-set serialrx_provider = SBUS
-set vcd_video_system = HD
 set gyro_lpf1_static_hz = 350
 set gyro_lpf2_static_hz = 0
 set dyn_notch_count = 2
 set dyn_notch_q = 500
-set dyn_notch_min_hz = 90
 set gyro_lpf1_dyn_min_hz = 0
-set gyro_lpf1_dyn_max_hz = 300
-set acc_lpf_hz = 10
-set acc_calibration = 23,-20,19,1
-set rc_smoothing_auto_factor = 140
-set rc_smoothing_auto_factor_throttle = 28
+set acc_calibration = -23,-16,-1,1
+set rc_smoothing_auto_factor = 25
 set rc_smoothing_setpoint_cutoff = 25
 set rc_smoothing_feedforward_cutoff = 25
-set rc_smoothing_throttle_cutoff = 20
 set blackbox_sample_rate = 1/16
 set motor_kv = 1800
-set dshot_idle_value = 650
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
-set vbat_warning_cell_voltage = 340
 set yaw_motors_reversed = ON
 set small_angle = 180
 set gps_sbas_mode = AUTO
 set gps_ublox_use_galileo = ON
 set gps_rescue_ground_speed = 1100
 set gps_rescue_min_sats = 5
-set yaw_deadband = 5
 set pid_process_denom = 2
 set simplified_gyro_filter_multiplier = 140
-set osd_warn_bitmask = 8191
+set osd_warn_bitmask = 57343
 set osd_link_quality_alarm = 70
+set osd_rssi_dbm_alarm = -100
 set osd_cap_alarm = 20000
-set osd_rssi_pos = 152
-set osd_link_quality_pos = 571
+set osd_rssi_pos = 88
+set osd_link_quality_pos = 2512
 set osd_link_tx_power_pos = 24
-set osd_tim_2_pos = 2599
+set osd_rssi_dbm_pos = 2506
+set osd_tim_2_pos = 2497
 set osd_flymode_pos = 398
 set osd_throttle_pos = 245
 set osd_vtx_channel_pos = 373
-set osd_current_pos = 512
-set osd_mah_drawn_pos = 544
+set osd_current_pos = 353
+set osd_mah_drawn_pos = 385
 set osd_craft_name_pos = 384
-set osd_gps_speed_pos = 3497
-set osd_gps_sats_pos = 3529
-set osd_home_dir_pos = 2554
-set osd_home_dist_pos = 3561
-set osd_altitude_pos = 18919
+set osd_gps_speed_pos = 2520
+set osd_gps_sats_pos = 2488
+set osd_home_dir_pos = 2447
+set osd_home_dist_pos = 2456
+set osd_flight_dist_pos = 153
+set osd_altitude_pos = 18817
 set osd_power_pos = 388
-set osd_warnings_pos = 14869
-set osd_avg_cell_voltage_pos = 2567
-set osd_disarmed_pos = 2390
+set osd_warnings_pos = 14762
+set osd_avg_cell_voltage_pos = 2465
+set osd_disarmed_pos = 2283
 set osd_stat_bitmask = 8402476
+set osd_displayport_device = MAX7456
+set osd_canvas_width = 30
+set osd_canvas_height = 16
 set debug_mode = GYRO_SCALED
+set vtx_band = 5
+set vtx_channel = 3
+set vtx_power = 1
+set vtx_freq = 5732
+set vcd_video_system = PAL
 set displayport_msp_fonts = 0,0,0,0
 set gyro_2_bustype = SPI
 set gyro_2_sensor_align = CW0
-set rpm_filter_harmonics = 2
-set rpm_filter_min_hz = 80
-set craft_name = Nazgul XL5 ECO
+set craft_name = Nazgul5 XL5 ECO
 
 profile 0
 
 # profile 0
-set dterm_lpf1_dyn_min_hz = 0
-set dterm_lpf1_dyn_max_hz = 0
+set dterm_lpf1_dyn_min_hz = 80
+set dterm_lpf1_dyn_max_hz = 110
 set dterm_lpf1_dyn_expo = 8
-set dterm_lpf1_static_hz = 82
-set dterm_lpf2_static_hz = 165
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf1_static_hz = 0
+set dterm_lpf2_static_hz = 0
 set vbat_sag_compensation = 100
-set iterm_relax_cutoff = 8
-set pidsum_limit = 1000
-set pidsum_limit_yaw = 1000
+set iterm_relax_cutoff = 10
 set p_pitch = 58
-set i_pitch = 89
-set d_pitch = 48
+set i_pitch = 78
+set d_pitch = 53
 set f_pitch = 148
 set p_roll = 56
-set i_roll = 85
-set d_roll = 47
+set i_roll = 75
+set d_roll = 51
 set f_roll = 142
 set p_yaw = 65
 set i_yaw = 90
 set f_yaw = 142
-set angle_limit = 45
-set d_min_roll = 39
-set d_min_pitch = 40
-set d_max_advance = 0
-set thrust_linear = 10
-set feedforward_smooth_factor = 30
-set feedforward_jitter_factor = 12
+set horizon_level_strength = 50
+set d_min_roll = 43
+set d_min_pitch = 43
+set feedforward_smooth_factor = 0
+set feedforward_jitter_factor = 15
+set feedforward_boost = 5
 set dyn_idle_min_rpm = 30
-set simplified_pids_mode = OFF
+set simplified_pids_mode = RP
 set simplified_master_multiplier = 125
-set simplified_i_gain = 85
-set simplified_d_gain = 105
+set simplified_i_gain = 75
+set simplified_d_gain = 115
 set simplified_dmax_gain = 60
 set simplified_feedforward_gain = 95
 set simplified_pitch_d_gain = 90
-set simplified_pitch_pi_gain = 110
 set simplified_dterm_filter = OFF
 set simplified_dterm_filter_multiplier = 135
 set tpa_rate = 50
@@ -181,19 +193,9 @@ set tpa_breakpoint = 1200
 
 rateprofile 0
 
-# rateprofile 0
-set thr_mid = 40
-set thr_expo = 40
-set roll_rc_rate = 12
-set pitch_rc_rate = 12
-set yaw_rc_rate = 12
-set roll_expo = 20
-set pitch_expo = 20
-set yaw_expo = 20
-
 # end the command batch
 batch end
 
 
-# 
+#
 #$ OPTION END
