@@ -1,0 +1,176 @@
+#$ TITLE:Centurion O3/O4 ELRS/CRSF
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS:iFlight,Centurion
+#$ AUTHOR: iFlight
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://github.com/Jason-iFlight/firmware-presets/blob/iFlight/Logo.png?raw=true" width="150px" style="display: block; float: right;"/></a>
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Please read instructions carefully! All factory default options have been selected automatically!
+#$ DESCRIPTION: 
+#$ DESCRIPTION:
+#$ DESCRIPTION: WARNING:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* CRSF protocol MUST BE SELECTED when flashing Betaflight 4.5.x.
+#$ DESCRIPTION:* NOT FOR BEGINNERS! Only for experienced users!
+#$ DESCRIPTION:
+#$ DESCRIPTION: How to:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* Flash Betaflight 4.5.x with Radio Protocol "CRSF" selected
+#$ DESCRIPTION:* Come back & apply this Preset
+#$ DESCRIPTION:* Flash a RC_LINK Preset that fits your Radio Link
+#$ DESCRIPTION:* Calibrate the Accelerometer (Betaflight page1)
+#$ DESCRIPTION:* Change Canvas Mode to HD on your DJI Goggle (Settings-Display-)
+#$ DESCRIPTION:* Remove permanent Angle Mode if necessary (Modes)
+#$ DESCRIPTION:* Have Fun!
+#$ DESCRIPTION:* -
+#$ DESCRIPTION:
+#$ WARNING: You've read the information attached to these factory defaults and take full responsibility for your own gear! Do a test flight in confined area after updating!
+#$ DISCUSSION: https://github.com/Jason-iFlight/firmware-presets
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION BEGIN (CHECKED): Wipe All
+defaults nosave
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Apply All
+
+# version
+# Betaflight / STM32H743 (SH74) 4.5.1 Oct  4 2024 / 15:13:42 (77d01ba3b) MSP API: 1.46
+# config rev: 9a8694f
+
+# start the command batch
+batch start
+
+board_name 2RAW_THUNDER_H7
+manufacturer_id IFRC
+
+# name: Centurion
+
+# feature
+feature GPS
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 0 131073 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+serial 3 2 115200 115200 0 115200
+
+# mixer
+mixer OCTOX8
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 900 2100 0 0
+aux 2 40 8 900 2100 0 0
+
+# master
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 450
+set dyn_notch_count = 2
+set dyn_notch_q = 450
+set dyn_notch_min_hz = 45
+set dyn_notch_max_hz = 500
+set gyro_lpf1_dyn_min_hz = 0
+set acc_calibration = 21,24,-3,1
+set rc_smoothing_auto_factor = 35
+set rc_smoothing_auto_factor_throttle = 28
+set rc_smoothing_setpoint_cutoff = 12
+set rc_smoothing_feedforward_cutoff = 12
+set rc_smoothing_throttle_cutoff = 20
+set blackbox_sample_rate = 1/16
+set dshot_bidir = ON
+set failsafe_procedure = GPS-RESCUE
+set align_board_yaw = 270
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_sbas_mode = AUTO
+set gps_ublox_use_galileo = ON
+set gps_rescue_return_alt = 120
+set gps_rescue_min_sats = 5
+set simplified_gyro_filter_multiplier = 90
+set osd_warn_bitmask = 319487
+set osd_link_quality_alarm = 70
+set osd_rssi_dbm_alarm = -100
+set osd_cap_alarm = 20000
+set osd_link_quality_pos = 2531
+set osd_rssi_dbm_pos = 2563
+set osd_tim_2_pos = 3567
+set osd_gps_speed_pos = 2648
+set osd_gps_sats_pos = 3086
+set osd_home_dir_pos = 3073
+set osd_home_dist_pos = 2068
+set osd_flight_dist_pos = 2051
+set osd_altitude_pos = 2678
+set osd_warnings_pos = 14709
+set osd_avg_cell_voltage_pos = 2595
+set osd_disarmed_pos = 2391
+set debug_mode = GYRO_SCALED
+set rpm_filter_q = 600
+set rpm_filter_min_hz = 60
+set craft_name = Centurion
+set box_user_1_name = VTX_ON_OFF
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 0
+set dterm_lpf1_type = PT2
+set dterm_lpf1_static_hz = 82
+set dterm_lpf2_static_hz = 0
+set anti_gravity_gain = 82
+set iterm_relax_cutoff = 5
+set pidsum_limit = 1000
+set yaw_lowpass_hz = 80
+set p_pitch = 77
+set i_pitch = 97
+set d_pitch = 89
+set f_pitch = 206
+set p_roll = 74
+set i_roll = 92
+set d_roll = 79
+set f_roll = 198
+set p_yaw = 74
+set i_yaw = 92
+set f_yaw = 198
+set angle_limit = 45
+set d_min_roll = 79
+set d_min_pitch = 89
+set feedforward_smooth_factor = 20
+set feedforward_jitter_factor = 15
+set feedforward_boost = 5
+set dyn_idle_min_rpm = 19
+set simplified_master_multiplier = 165
+set simplified_i_gain = 70
+set simplified_d_gain = 160
+set simplified_dmax_gain = 0
+set simplified_dterm_filter_multiplier = 110
+
+rateprofile 0
+
+# rateprofile 0
+set roll_rc_rate = 2
+set pitch_rc_rate = 2
+set yaw_rc_rate = 2
+set roll_expo = 30
+set pitch_expo = 30
+set yaw_expo = 30
+set roll_srate = 45
+set pitch_srate = 45
+set yaw_srate = 45
+
+# end the command batch
+batch end
+
+#
+#$ OPTION END
