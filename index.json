@@ -5819,8 +5819,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/AfterBurner/Afterburner O3 CRSF 4.5.0.txt",
-      "hash": "7a2052647d1410fd57c94a6336adcd3bf5c9849552cb50227151ce822c98c660",
-      "title": "Afterburner O3/O4 ELRS/CRSF",
+      "hash": "2470e77f77edcbc5de7475505ed2370f616f2c86517da3ef3410ca778a295926",
+      "title": "Afterburner O3 ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
@@ -5836,8 +5836,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/AfterBurner/Afterburner O3 DJI 4.5.0.txt",
-      "hash": "b54c7676d3b9f6b80f2896d846600dc3ecef4e82504143a0da806557e5d9f1a4",
-      "title": "Afterburner O3/O4 DJI RC",
+      "hash": "15bafcd74f0112637d202134479d0226ad061bf1eeb28efda874f18b8137a8b6",
+      "title": "Afterburner O3 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6065,8 +6065,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/CineFlow 5/CineFlow 5 O3_O4 CRSF 4.5.x.txt",
-      "hash": "945f7be4262aad4bca3967f583a309360a25ecbfe011b4667d62d23d1728c111",
-      "title": "CineFlow 5 O3/O4 ELRS/CRSF",
+      "hash": "ba727fb592e3f6ccc5546cdaab319670ea45db0035fea1ef33f5b483c1302379",
+      "title": "CineFlow 5 O4 ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
@@ -6083,8 +6083,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/CineFlow 5/CineFlow 5 O3_O4 DJI 4.5.x.txt",
-      "hash": "b92a149b3b54d06831099657e865d12dfc538ec2ccb9d2a1378dfe23f767addf",
-      "title": "CineFlow 5 O3/O4 DJI RC",
+      "hash": "3bb72e1ccd0c89642abc8c313e69fb7869475bb928e24733d89ece9f4bb7e8ee",
+      "title": "CineFlow 5 O4 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6101,8 +6101,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/CineLR 7/CineLR 7 O3_O4 CRSF 4.5.x.txt",
-      "hash": "3dad5e236dc6d26147882c530adefc4cb4c4f7714763611dd51f727f9affdf1e",
-      "title": "CineLR 7 O3/O4 ELRS/CRSF",
+      "hash": "55a0a80ee086562b07ab0565032957b9a76d7fca80c6630b97c5305e5ec2a533",
+      "title": "CineLR 7 O4 ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
@@ -6119,8 +6119,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/CineLR 7/CineLR 7 O3_O4 DJI 4.5.x.txt",
-      "hash": "2dcd57823d5b9d9a98cb5cd0774ecd7b70db78b83081df392ddfd8a2a343bc7a",
-      "title": "CineLR 7 O3/O4 DJI RC",
+      "hash": "91e7542fa6f8b27c371baa992f24d4801caa026f5ca72c20e0144628aa9a01e9",
+      "title": "CineLR 7 O4 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6137,8 +6137,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Defender 16/Defender 16 O3 CRSF 4.5.0.txt",
-      "hash": "4a7aebb2a91627a5ce535abc08a206e751ff5cdaf3b7865222be797fc6849332",
-      "title": "Defender 16 O3/O4 ELRS/CRSF",
+      "hash": "76a287c821ef79461ec65a0e9f466aa0c7c8b1afe14deb59a2904263006a0313",
+      "title": "Defender 16 O3 ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
@@ -6155,8 +6155,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Defender 16/Defender 16 O3 DJI 4.5.0.txt",
-      "hash": "3198680b174e2c8e1cb6f9d6d7eb90b5636f4600a0a1cb0c96b5a367656719f3",
-      "title": "Defender 16 O3/O4 DJI RC",
+      "hash": "2b6ba9185d9cf05602b0bf265801dac15b19417bc39950b713441bd10cf9b3a9",
+      "title": "Defender 16 O3 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6173,8 +6173,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Defender 20/Defender 20 O3 CRSF 4.5.0.txt",
-      "hash": "c0d367540c92cc93ef6456c468a595f6d8890da615839b2713b8e3a2424086d2",
-      "title": "Defender 20 O3/O4 ELRS/CRSF",
+      "hash": "d29e813ef3ae39089be934bbaa234bdc521246495c35d484ca6a2a6726bd5424",
+      "title": "Defender 20 O3 ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
@@ -6191,8 +6191,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Defender 20/Defender 20 O3 DJI 4.5.0.txt",
-      "hash": "e14e315cfe8006a4ca0f93bf88de6bd409bc4b3adadfd9dd4557e985dfaed471",
-      "title": "Defender 20 O3/O4 DJI RC",
+      "hash": "6637022df66346be44c3f551fc9c412dc275424d632cf84d732c791c1550a1c9",
+      "title": "Defender 20 O3 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6209,8 +6209,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Defender 25/Defender 25  O3 CRSF 4.5.0.txt",
-      "hash": "046cab039f563772908bc6f410cadf5deab2b8f15680e13f22566932dee18b67",
-      "title": "Defender 25 O3/O4 ELRS/CRSF",
+      "hash": "358292d9c9d7f09e43624e469f8c1a2421ac76f1fa4a301f233ebd5f7111738b",
+      "title": "Defender 25 O3 ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
@@ -6227,8 +6227,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Defender 25/Defender 25  O3 DJI 4.5.0.txt",
-      "hash": "201601672ca57f56db0a9f156a648a4d239c4c9c4f491865ca1e584ae38ab3ff",
-      "title": "Defender 25 O3/O4 DJI RC",
+      "hash": "9d97c0c85317ce056d0be741e3a8a265308a3d27b8cb232107e1849c9d46a2f8",
+      "title": "Defender 25 O3 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6583,8 +6583,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Nazgul F6 V2/F6 V2 O3 O4 DJI 4.5.0.txt",
-      "hash": "65655408c03a76a58aa939500b9483738b453e1e62a013fb9fc2382492ae231b",
-      "title": "Nazgul F6 V2 DJI RC",
+      "hash": "89c35bc08a189477e8a928529f672685d5bbfc1e9be3aacfd887fdce00fdbef1",
+      "title": "Nazgul F6 V2 O3/O4 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6602,8 +6602,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Nazgul F6 V2/F6 V2 O3 O4 ELRS 4.5.0.txt",
-      "hash": "c5d2193f246bc5a1c49f9d468217c031c4876a81623038ae68dca53061cd2fa1",
-      "title": "Nazgul F6 V2 O3 CRSF/ELRS",
+      "hash": "9076d771ee717e0ceccb294fd01f99c595f85a8c939502f4e808fedc5c6d5dbd",
+      "title": "Nazgul F6 V2 O3/O4 CRSF/ELRS",
       "firmware_version": [
         "4.5"
       ],
@@ -6712,8 +6712,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Protek 35/ProTek35 O3 CRSF 4.5.x.txt",
-      "hash": "5caf5764fcd7657ac3b743ff14b80ea24c9e8f2a29d185a9a39cee98f09ff91e",
-      "title": "Protek 35 O3/O4 ELRS/CRSF",
+      "hash": "efd385b7e1c4d157a7607a6ce429f2d7c1c6c149415bb4bde055353a048ca319",
+      "title": "Protek 35 O3 ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
@@ -6729,8 +6729,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Protek 35/ProTek35 O3 DJI 4.5.x.txt",
-      "hash": "c35e2d88ac67001af08adbd3abe1f30b5ec6838a5d2ad012ebe9ee63bf250fc9",
-      "title": "Protek 35 O3/O4 DJI RC",
+      "hash": "cb2ff48c93e0b148826629b4c06658808a8ad8e29ffccf9f13177f5eecff4779",
+      "title": "Protek 35 O3 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6850,8 +6850,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro/Taurus X8 Pro O3 O4 DJI 4.5.0.txt",
-      "hash": "0c3ac1a48e51fe364ff9bddb18d446808ac16781e8dfd28f8a6563b37c065ee2",
-      "title": "Taurus X8 PRO DJI RC",
+      "hash": "a33978ec64be08ffb4d06d44eb352160d23d9ecfffee36467896e774abefbacb",
+      "title": "Taurus X8 PRO  O3/O4 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6869,8 +6869,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro/Taurus X8 Pro O3 O4 ELRS 4.5.0.txt",
-      "hash": "2a609cdb772542116b56df1202bc05ee73bbad43d5a618afe871588ba9ed6be0",
-      "title": "Taurus X8 PRO CRSF/ELRS",
+      "hash": "7746a489a73edc82aa0595678578c7f8aad374be4402ab5d506c04bfebb0b385",
+      "title": "Taurus X8 PRO O3/O4 CRSF/ELRS",
       "firmware_version": [
         "4.5"
       ],
@@ -6888,8 +6888,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro Max/IFLIGHT_X8_Pro_Max_DJI_SBUS.txt",
-      "hash": "63c038ad4e1f9952ff3c90f16256e0479027cc369c76a7d164d20838c7b47cfb",
-      "title": "Taurus X8 Pro Max DJI RC",
+      "hash": "1c100b35db39fbc952c972871547b12159da7a231949b57a27e3a499560c361e",
+      "title": "Taurus X8 Pro Max O3/O4 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6907,8 +6907,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro Max/IFLIGHT_X8_Pro_Max_ELRS_CRSF.txt",
-      "hash": "8dfca26ea8ac4fd98518ce19be505ea2313e1145fc733d56cf196cad80a1ce5f",
-      "title": "Taurus X8 Pro Max CRSF/ELRS",
+      "hash": "1a87511feb49fb66d03adadfb9170c3e71d192ea73ccbf7e219b70f8ef251e64",
+      "title": "Taurus X8 Pro Max  O3/O4 CRSF/ELRS",
       "firmware_version": [
         "4.5"
       ],
@@ -6926,8 +6926,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 V3/Taurus X8 V3 O3 DJI 4.5.0.txt",
-      "hash": "b3510756dba4ff95407385a35a5e81a83d2b09ed5f0ea23a276cae411c93fd52",
-      "title": "Taurus X8 V3 DJI RC",
+      "hash": "19387743b5f1254b10967a35510691a9a53f9154e4468d4e277d74b2f9b12744",
+      "title": "Taurus X8 V3  O3/O4 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6945,8 +6945,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 V3/Taurus X8 V3 O3 ELRS 4.5.0.txt",
-      "hash": "e573f3a26b9a594718769e5369f0f16426c79901f0e7583c4ca1d229a799b381",
-      "title": "Taurus X8 V3 CRSF/ELRS",
+      "hash": "61848838c100d45e9dcfdd5b4200c16ea11ff13953c2d22dd9fe44e44e3e5321",
+      "title": "Taurus X8 V3  O3/O4 CRSF/ELRS",
       "firmware_version": [
         "4.5"
       ],
