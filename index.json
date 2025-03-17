@@ -6279,8 +6279,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/IH3/iH3 O3 O4 DJI 4.5.1.txt",
-      "hash": "e2f03fe30d5269ce03e2cdb501bd93287410010d0c90689718da8640de223c4b",
-      "title": "IH3 O3/O4 DJI RC",
+      "hash": "d57ad9d9a5802452d7bfbd42c7a0b97864003d1432994b07b7e4fc69e2f5e860",
+      "title": "IH3 O3 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6296,8 +6296,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/IH3/iH3 O3 O4 ELRS 4.5.1.txt",
-      "hash": "5f911e3f6963264acec461b1b66c617c3a67844862b6a63f13431fa1a3d4b282",
-      "title": "IH3 O3/O4 ELRS/CRSF",
+      "hash": "2e4bc4777fec8702fe67a1b9cb80fd7fce97e3b6538c0d370b5e063a32b2211d",
+      "title": "IH3 O3 ELRS/CRSF",
       "firmware_version": [
         "4.5"
       ],
