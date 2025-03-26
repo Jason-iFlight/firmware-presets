@@ -282,6 +282,7 @@
       "actual",
       "adjustments",
       "Afterburner",
+      "Afterburner Sport",
       "air",
       "air unit",
       "akk",
@@ -310,6 +311,7 @@
       "BMS",
       "BMSThomas",
       "BOB",
+      "BOB46",
       "BOB57",
       "botgrinder",
       "brushless",
@@ -555,6 +557,7 @@
       "some",
       "Spec",
       "spec racing",
+      "Specter 7",
       "speedybee",
       "Sport",
       "squirrel",
@@ -5852,6 +5855,76 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/Afterburner Sport/AfterBurner Sport O4 CRSF 4.5.x.txt",
+      "hash": "e716256810580183862dd9de5e65acf0ef2b2c319df1952ccbaf2c72f72b1d80",
+      "title": "Afterburner Sport O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Afterburner Sport"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Afterburner Sport/AfterBurner Sport O4 DJI 4.5.x.txt",
+      "hash": "aecd8af4613257f13585824617c53c1af8e382ee31fae32295800e2d4209b0a0",
+      "title": "Afterburner Sport O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Afterburner Sport"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/BOB46/BOB46 O4 CRSF 4.5.x.txt",
+      "hash": "189e65744263171e19158061aa32e09173d6f5a2d29c13c7844e661979bed2fd",
+      "title": "BOB46 O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "BOB46",
+        "BOB"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/BOB46/BOB46 O4 DJI 4.5.x.txt",
+      "hash": "5278fdc85b38e71bfb2244308c92b7fb11f3abeac37e5dabb1c69e8f7a761f4a",
+      "title": "BOB46 O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "BOB46",
+        "BOB"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/BOB57/BOB57 O3_O4 CRSF 4.5.x.txt",
       "hash": "d94276ef5735b48a6dab63eb57fd3e234b8f020ea3debb7a9530595356fd5bfc",
       "title": "BOB57 O3/O4 ELRS/CRSF",
@@ -6843,6 +6916,40 @@
       "keywords": [
         "iFlight",
         "Proxima"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Specter7/Specter7 O4 CRSF 4.5.x.txt",
+      "hash": "6b6cb5bbfc0e449af3250619fcc4cdfbadf35fed949bc7e002f0d3a95af193e7",
+      "title": "Specter 7 O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Specter 7"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Specter7/Specter7 O4 DJI 4.5.x.txt",
+      "hash": "e51646ed8bd1b22a81b577072210f6393aa3872f5d7ea3761477bc7f5a30773d",
+      "title": "Specter 7 O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Specter 7"
       ],
       "author": "iFlight",
       "force_options_review": true,
