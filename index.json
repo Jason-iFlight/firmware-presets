@@ -357,6 +357,7 @@
       "Defender",
       "Defender 16",
       "Defender 20",
+      "Defender 20 lite",
       "Defender 25",
       "der_V",
       "diatone",
@@ -6274,6 +6275,42 @@
       "keywords": [
         "iFlight",
         "Defender 20",
+        "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Defender 20 Lite/Defender Lite O4 CRSF.txt",
+      "hash": "dadf6cd202da9b5c74e490e0cb22422833801556df70ea44a4cc87cbc6bee888",
+      "title": "Defender 20 lite O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Defender 20 lite",
+        "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Defender 20 Lite/Defender Lite O4 DJI.txt",
+      "hash": "d9cd8ac73db169cb5a7eeeffa0af5630e1342a03013f804f9aa951c2e34c5944",
+      "title": "Defender 20 lite O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Defender 20 Lite",
         "Defender"
       ],
       "author": "iFlight",
