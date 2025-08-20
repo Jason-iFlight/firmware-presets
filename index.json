@@ -499,6 +499,7 @@
       "Passthrough",
       "pid",
       "PIDtoolbox",
+      "Pro",
       "pro32",
       "profile",
       "ProTek",
@@ -6382,6 +6383,42 @@
       "keywords": [
         "iFlight",
         "Helion"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Helion Pro/Helion Pro O4 CRSF 4.5.x.txt",
+      "hash": "17eb82893e85ebaacd77b44cb0ee0020ce69291a0387434f1b751d2db85211e4",
+      "title": "Helion Pro O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Helion",
+        "Pro"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Helion Pro/Helion Pro O4 DJI 4.5.x.txt",
+      "hash": "3afadcde19005c8532516e67fd8623336f4a74568ab46b55c02561e65a39266c",
+      "title": "Helion Pro O3/O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Helion",
+        "Pro"
       ],
       "author": "iFlight",
       "force_options_review": true,
