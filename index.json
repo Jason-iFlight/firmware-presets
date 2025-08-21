@@ -6283,8 +6283,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Defender 20 Lite/Defender Lite O4 CRSF.txt",
-      "hash": "dadf6cd202da9b5c74e490e0cb22422833801556df70ea44a4cc87cbc6bee888",
+      "fullPath": "presets/4.5/bnf/iFlight/Defender 20 Lite/Defender 20 Lite O4 CRSF 4.5.x.txt",
+      "hash": "5917a3e17e382526b50d03e7e2fa9cb79e49902bdca2703c36ddaaf00d3180c1",
       "title": "Defender 20 lite O4 ELRS/CRSF",
       "firmware_version": [
         "4.5"
@@ -6301,8 +6301,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.5/bnf/iFlight/Defender 20 Lite/Defender Lite O4 DJI.txt",
-      "hash": "d9cd8ac73db169cb5a7eeeffa0af5630e1342a03013f804f9aa951c2e34c5944",
+      "fullPath": "presets/4.5/bnf/iFlight/Defender 20 Lite/Defender 20 Lite O4 DJI 4.5.x.txt",
+      "hash": "0ceba76abf04f1280189f785447747807f15339f5de63d9a188d4a0845be1448",
       "title": "Defender 20 lite O4 DJI RC",
       "firmware_version": [
         "4.5"
