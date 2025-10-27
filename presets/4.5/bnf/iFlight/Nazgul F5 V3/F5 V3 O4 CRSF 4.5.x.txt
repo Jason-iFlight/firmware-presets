@@ -188,6 +188,45 @@ set simplified_feedforward_gain = 70
 set tpa_rate = 60
 set tpa_breakpoint = 1300
 
+profile 1
+set dterm_lpf1_dyn_expo = 7
+set dterm_lpf1_static_hz = 0
+set vbat_sag_compensation = 100
+set anti_gravity_gain = 110
+set iterm_relax = RPY_INC
+set iterm_relax_cutoff = 10
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+set p_pitch = 75
+set i_pitch = 107
+set d_pitch = 69
+set f_pitch = 230
+set p_roll = 68
+set i_roll = 97
+set d_roll = 57
+set f_roll = 211
+set p_yaw = 68
+set i_yaw = 97
+set f_yaw = 211
+set angle_limit = 45
+set d_min_roll = 47
+set d_min_pitch = 57
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 10
+set dyn_idle_min_rpm = 37
+set simplified_master_multiplier = 160
+set simplified_i_gain = 80
+set simplified_pi_gain = 95
+set simplified_dmax_gain = 60
+set simplified_feedforward_gain = 110
+set simplified_pitch_d_gain = 105
+set simplified_pitch_pi_gain = 105
+set tpa_rate = 60
+set tpa_breakpoint = 1300
+
+profile 0
+
 rateprofile 0
 
 # rateprofile 0
