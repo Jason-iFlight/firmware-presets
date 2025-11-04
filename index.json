@@ -454,6 +454,7 @@
       "lr5",
       "Mach",
       "Mach R5 Sport",
+      "Mach R5 Ultra",
       "mamba",
       "Marek",
       "mck",
@@ -6573,6 +6574,66 @@
         "Mach",
         "R5",
         "Sport"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Mach R5 Ultra/Mach R5 Ultra Analog CRSF 25mw.txt",
+      "hash": "5f5a9a98b2b6792cbd689bf5483edb8ff145034927181cb26cef0cd4c78f9bf5",
+      "title": "Mach R5 Ultra Analog 25mw VTX CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Mach R5 Ultra",
+        "Mach",
+        "R5",
+        "Ultra"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Mach R5 Ultra/Mach R5 Ultra Analog CRSF 600mw.txt",
+      "hash": "43b47a839ab2b67811a6de046d3d4bfff080336c6325eedb9db23c3c4bf48e20",
+      "title": "Mach R5 Ultra Analog 600mw VTX CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Mach R5 Ultra",
+        "Mach",
+        "R5",
+        "Ultra"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Mach R5 Ultra/Mach R5 Ultra HDZero CRSF .txt",
+      "hash": "53fea398a8cb446e547f65e61aa2344d997a4c3f3d6c1735f1191f685f87be7f",
+      "title": "Mach R5 Ultra HDZERO CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Mach R5 Ultra",
+        "Mach",
+        "R5",
+        "Ultra"
       ],
       "author": "iFlight",
       "force_options_review": true,
