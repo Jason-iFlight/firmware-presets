@@ -355,6 +355,7 @@
       "default",
       "defaults",
       "Defender",
+      "Defender 12",
       "Defender 16",
       "Defender 20",
       "Defender 20 lite",
@@ -382,6 +383,7 @@
       "F4",
       "F5",
       "F6",
+      "F7",
       "feisar",
       "filter",
       "filtering",
@@ -479,6 +481,7 @@
       "Nazgul F5 V2",
       "Nazgul F5 V3",
       "Nazgul F6 V2",
+      "Nazgul F7",
       "Nazgul XL5 ECO",
       "Neil",
       "neuron",
@@ -645,6 +648,24 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/bnf/iFlight/Defender12 Brushed Motor/Defender 12 Analog Brushed .txt",
+      "hash": "a5ab3333829b30d8f91841385be20a988aa7874d7b919bf8ac826cbcf4cddf83",
+      "title": "Defender 12 Brushed ELRS/CRSF",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Defender 12",
+        "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
@@ -6356,6 +6377,24 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/Defender12 Brushless Motor/Defender 12 Analog Brushless.txt",
+      "hash": "7df1e6f54c62fc938fbf83cb51c2c774f176dd9013a47a38c8369b54ccc33d56",
+      "title": "Defender 12 Brushed ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Defender 12",
+        "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/Helion 10/Helion O3 O4 CRSF 4.5.x.txt",
       "hash": "d8f3fac7d926045f92edec431c74fbc5778b99e2000cc84279a3e3193e559bbc",
       "title": "Helion O3/O4 ELRS/CRSF",
@@ -6838,6 +6877,44 @@
         "Nazgul F6 V2",
         "Nazgul",
         "F6"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F7/Nazgul F7 O4 DJI.txt",
+      "hash": "ee265fbd3b43fac1d9d8c5e7fe11784cca3d468b7b3275f2953371537a48e8d1",
+      "title": "Nazgul F7 O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul F7",
+        "Nazgul",
+        "F7"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Nazgul F7/Nazgul F7 O4 ELRS.txt",
+      "hash": "aa0569f247d1a11ba84baa88d28614ded262b28368594f7fe47244bf4d9dfce9",
+      "title": "Nazgul F7 O4 CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul F7",
+        "Nazgul",
+        "F7"
       ],
       "author": "iFlight",
       "force_options_review": true,
