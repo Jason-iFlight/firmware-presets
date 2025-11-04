@@ -40,15 +40,10 @@ defaults nosave
 
 
 #$ OPTION BEGIN (CHECKED): Apply All
-# version
-# Betaflight / AT32F435G (A435) 4.5.1 Dec 17 2024 / 10:51:18 (77d01ba3b) MSP API: 1.46
-# config rev: d32d763
 
 # start the command batch
 batch start
 
-board_name IFLIGHT_BLITZ_F435
-manufacturer_id IFRC
 
 # name: Nazgul DC5 ECO
 

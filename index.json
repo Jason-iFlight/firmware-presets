@@ -6541,7 +6541,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Nazgul DC5 ECO/Nazgul DC5 ECO O3 O4 CRSF 4.5.x.txt",
-      "hash": "bffdd76c45ea7a40f8fb418e5bac51194e052211e4d7cf65a7d23ff844f60dc5",
+      "hash": "fb2fc895768298d73c0a4ffe54e18b5602a795a2d769dd69ff26d847ad3ea206",
       "title": "Nazgul DC5 ECO O3/O4 ELRS/CRSF",
       "firmware_version": [
         "4.5"
@@ -6560,7 +6560,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Nazgul DC5 ECO/Nazgul DC5 ECO O3 O4 DJI 4.5.x.txt",
-      "hash": "487f6e010ed8d8bc7b3cbb49677c6e85d915045b98c71515dca2181fe0d125f7",
+      "hash": "a4a788d7736f0ef74897cfe97a4afae83b29c4afd5279a25b212cdeebf25bc35",
       "title": "Nazgul DC5 ECO O3/O4 DJI RC",
       "firmware_version": [
         "4.5"
@@ -6845,7 +6845,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Nazgul XL5 ECO/Nazgul XL5 ECO Analog CRSF 4.5.x.txt",
-      "hash": "453d69977a5a58941fd2c81dfdb030f984440419c76925f1261c9ea85ddcc5c8",
+      "hash": "5d7f2d74b78c06debd6d4e6b7d36e1fdd5761ed5716cc5ab5d153a3035fb6b51",
       "title": "Nazgul XL5 ECO Analog 1.6w vtx ELRS/CRSF",
       "firmware_version": [
         "4.5"
