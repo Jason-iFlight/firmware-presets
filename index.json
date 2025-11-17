@@ -6736,8 +6736,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Nazgul F5 V2/F5 V2 O3 O4 DJI 4.5.0.txt",
-      "hash": "8dcdb8ea25b9a73133326a3dd66442ad0247df1e29f23b7d8c3d41fab29e4296",
-      "title": "Nazgul F5 V2 O3 DJI RC",
+      "hash": "d8dcc1a3ef3af98d77cc8656950682dddf64c57d86a277208e393ad41278152c",
+      "title": "Nazgul F5 V2 O3/O4 DJI RC",
       "firmware_version": [
         "4.5"
       ],
@@ -6755,8 +6755,8 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Nazgul F5 V2/F5 V2 O3 O4 ELRS 4.5.0.txt",
-      "hash": "2fffe53b6f9836f83b725ac92c6c274b2b10028da0925b784be2be4ff7ab5d8b",
-      "title": "Nazgul F5 V2 O3 CRSF/ELRS",
+      "hash": "4b0fa0c9906316c385dc9f03890026a405c9bb8acb2f8f89c2eea4748b57ffc7",
+      "title": "Nazgul F5 V2 O3/O4 CRSF/ELRS",
       "firmware_version": [
         "4.5"
       ],
