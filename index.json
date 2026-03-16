@@ -134,6 +134,7 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "2025.12",
       "3.5",
       "4.2",
       "4.3",
@@ -9458,6 +9459,76 @@
       "author": "sugarK",
       "force_options_review": true,
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Chimera7 Pro V2/Chimera7 Pro V2 Analog（1.6w vtx） ELRS 2025.12.txt",
+      "hash": "ef95e22045119cfebf56b526450479bc9dc8f60d7fb950baf9f92ae47ebdc41b",
+      "title": "Chimera 7 Pro V2 Analog 1.6w vtx CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Chimera 7 Pro V2",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Chimera7 Pro V2/Chimera7 Pro V2 Analog（2.5w vtx） ELRS 2025.12.txt",
+      "hash": "8489dfd0dbf23840822066ed242cf43e1f6da76e9c9b1e51717b4b1d48eae97c",
+      "title": "Chimera 7 Pro V2 Analog 1.6w vtx CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Chimera 7 Pro V2",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Chimera7 Pro V2/Chimera7 Pro V2 O3 O4 DJI 2025.12.txt",
+      "hash": "4f56f1ade8b4c7f825362b5da68e48c19c3485d3c8eed282e3f9f86ed1d9f0a3",
+      "title": "Chimera 7 Pro V2 O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iflight",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Chimera7 Pro V2/Chimera7 Pro V2 O3 O4 ELRS 2025.12.txt",
+      "hash": "b141364a6544cad70c8f6d196a56dc8501cb43ac0808a8d97cac0e9d352bce7f",
+      "title": "Chimera 7 Pro V2 O3/O4 CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iflight",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
     }
   ]
 }
