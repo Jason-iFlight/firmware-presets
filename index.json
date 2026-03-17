@@ -9529,6 +9529,101 @@
       "author": "iFlight",
       "force_options_review": true,
       "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Nazgul F5 V2/F5 V2 Analog CRSF 2025.12.txt",
+      "hash": "3c80539549c5a714f7aace4b2cc0dea57fd7d4aa9a2d468287697697be133fbe",
+      "title": "Nazgul F5 V2 Analog CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul F5 V2",
+        "Nazgul",
+        "F5"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Nazgul F5 V2/F5 V2 O3 O4 CRSF 2025.12.txt",
+      "hash": "6417d229b247edc8dd36a065a69777f713a044d8b473e133ac10f7da8357c01a",
+      "title": "Nazgul F5 V2 O3/O4 CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul F5 V2",
+        "Nazgul",
+        "F5"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Nazgul F5 V2/F5 V2 O3 O4 DJI 2025.12.txt",
+      "hash": "0235013fafdc562f40fd83c95fbff18488df056be6df689adb078ad00f326c1e",
+      "title": "Nazgul F5 V2 O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul F5 V2",
+        "Nazgul",
+        "F5"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Nazgul F5 V3/F5 V3 O4 CRSF 2025.12.txt",
+      "hash": "258d981292d48dd1883a28619907f61b7dc7843004589f0202750133c19814f4",
+      "title": "Nazgul F5 V3 O4 CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul F5 V3",
+        "Nazgul",
+        "F5"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Nazgul F5 V3/F5 V3 O4 DJI 2025.12.txt",
+      "hash": "6995e0e60ff6cae780f01c5ac8eb88ac3e193137072e5b8d07cc8f4a3ffdcb31",
+      "title": "Nazgul F5 V3 O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul F5 V3",
+        "Nazgul",
+        "F5"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
     }
   ]
 }
