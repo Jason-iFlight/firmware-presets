@@ -9461,6 +9461,112 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/2025.12/bnf/iFlight/Afterburner Sport/AfterBurner Sport O3 O4 CRSF 2025.12.txt",
+      "hash": "481de6bffa7129dddf90058ef9911c51f46bac3861083ef2e9d60eee321914d0",
+      "title": "Afterburner Sport O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Afterburner Sport"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Afterburner Sport/AfterBurner Sport O3 O4 DJI 2025.12.txt",
+      "hash": "38bbe063b9728a06a1b85870fc6f49a616216062817e4aa7d3ee266316e3ae69",
+      "title": "Afterburner Sport O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Afterburner Sport"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/BOB46/BOB46 O3 O4 CRSF 2025.12.txt",
+      "hash": "568e5dae21fd1417e642a74cf92ec345851d0a608d361cd529abf76cb0643f5f",
+      "title": "BOB46 O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "BOB46",
+        "BOB"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/BOB46/BOB46 O3 O4 DJI 2025.12.txt",
+      "hash": "709f23a2a09e4fa0203aab069fad3843c6fb05bbb93dcfaaf68a11edec20de2d",
+      "title": "BOB46 O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "BOB46",
+        "BOB"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/BOB57/BOB57 O3 O4 CRSF 2025.12.txt",
+      "hash": "cca537fdab8669c11e163f0a76304da10c4e2e4e012a0e9c09754d8e0afd6f24",
+      "title": "BOB57 O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "BOB57",
+        "BOB"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/BOB57/BOB57 O3 O4 SBUS 2025.12.txt",
+      "hash": "59fee3ec0f051e8e2b2fa6ac8d61365f0a1fab73b53adf149f68dad5be7043f6",
+      "title": "BOB57 O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "BOB57",
+        "BOB"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/2025.12/bnf/iFlight/Chimera7 Pro V2/Chimera7 Pro V2 Analog（1.6w vtx） ELRS 2025.12.txt",
       "hash": "ef95e22045119cfebf56b526450479bc9dc8f60d7fb950baf9f92ae47ebdc41b",
       "title": "Chimera 7 Pro V2 Analog 1.6w vtx CRSF/ELRS",
