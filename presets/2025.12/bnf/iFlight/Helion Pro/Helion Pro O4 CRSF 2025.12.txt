@@ -1,0 +1,199 @@
+#$ TITLE:Helion Pro O3/O4 ELRS/CRSF
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS:iFlight,Helion,Pro
+#$ AUTHOR: iFlight
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://github.com/Jason-iFlight/firmware-presets/blob/iFlight/Logo.png?raw=true" width="150px" style="display: block; float: right;"/></a>
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Please read instructions carefully! All factory default options have been selected automatically!
+#$ DESCRIPTION: 
+#$ DESCRIPTION:
+#$ DESCRIPTION: WARNING:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* CRSF protocol MUST BE SELECTED when flashing Betaflight 2025.12
+#$ DESCRIPTION:* NOT FOR BEGINNERS! Only for experienced users!
+#$ DESCRIPTION:
+#$ DESCRIPTION: How to:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* Flash Betaflight 2025.12 with Radio Protocol "CRSF" selected
+#$ DESCRIPTION:* Come back & apply this Preset
+#$ DESCRIPTION:* Flash a RC_LINK Preset that fits your Radio Link
+#$ DESCRIPTION:* Calibrate the Accelerometer (Betaflight page1)
+#$ DESCRIPTION:* Change Canvas Mode to HD on your DJI Goggle (Settings-Display-)
+#$ DESCRIPTION:* Remove permanent Angle Mode if necessary (Modes)
+#$ DESCRIPTION:* Have Fun!
+#$ DESCRIPTION:* -
+#$ DESCRIPTION:
+#$ WARNING: You've read the information attached to these factory defaults and take full responsibility for your own gear! Do a test flight in confined area after updating!
+#$ DISCUSSION: https://github.com/Jason-iFlight/firmware-presets
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION BEGIN (CHECKED): Wipe All
+defaults nosave
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Apply All
+# version
+# Betaflight / STM32H743 (SH74) 
+# config rev: 45252ee
+
+# start the command batch
+batch start
+
+board_name 2RAW_THUNDER_H7
+manufacturer_id IFRC
+
+# feature
+feature GPS
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial UART1 131073 115200 57600 0 115200
+serial UART2 64 115200 57600 0 115200
+serial UART4 2 115200 115200 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# led
+led 0 0,0::C:2
+led 1 1,0::C:2
+led 2 2,0::C:2
+led 3 3,0::C:2
+led 4 4,0::C:2
+led 5 5,0::C:2
+
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 900 2100 0 0
+aux 2 40 8 900 2100 0 0
+
+# master
+set craft_name = Helion Pro
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 600
+set gyro_notch1_hz = 125
+set gyro_notch1_cutoff = 100
+set dyn_notch_count = 2
+set dyn_notch_q = 400
+set dyn_notch_min_hz = 90
+set dyn_notch_max_hz = 700
+set gyro_lpf1_dyn_min_hz = 0
+set acc_calibration = 5,0,47,1
+set rc_smoothing_auto_factor = 35
+set rc_smoothing_auto_factor_throttle = 28
+set rc_smoothing_setpoint_cutoff = 12
+
+set rc_smoothing_throttle_cutoff = 20
+set blackbox_sample_rate = 1/16
+set motor_idle = 750
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_sbas_mode = AUTO
+set gps_ublox_use_galileo = ON
+set gps_rescue_ground_speed = 1100
+set gps_rescue_min_sats = 5
+set pid_process_denom = 2
+set simplified_gyro_filter_multiplier = 120
+set osd_warn_bitmask = 28543
+set osd_rssi_alarm = 80
+set osd_link_quality_alarm = 70
+set osd_rssi_dbm_alarm = -100
+set osd_cap_alarm = 20000
+set osd_rssi_pos = 152
+set osd_link_quality_pos = 2619
+set osd_link_tx_power_pos = 24
+set osd_rssi_dbm_pos = 2613
+set osd_tim_1_pos = 215
+set osd_tim_2_pos = 2599
+set osd_flymode_pos = 398
+set osd_throttle_pos = 507
+set osd_vtx_channel_pos = 373
+set osd_current_pos = 2503
+set osd_mah_drawn_pos = 3465
+set osd_craft_name_pos = 384
+set osd_gps_speed_pos = 3497
+set osd_gps_lon_pos = 32
+set osd_gps_lat_pos = 0
+set osd_gps_sats_pos = 3529
+set osd_home_dir_pos = 2554
+set osd_home_dist_pos = 3561
+set osd_flight_dist_pos = 461
+set osd_altitude_pos = 2535
+set osd_power_pos = 429
+set osd_warnings_pos = 14869
+set osd_avg_cell_voltage_pos = 2567
+set osd_disarmed_pos = 2390
+set osd_esc_rpm_pos = 34
+set debug_mode = GYRO_SCALED
+set rpm_filter_weights = 100,20,100
+set rpm_filter_min_hz = 50
+set rpm_filter_fade_range_hz = 30
+set box_user_1_name = VTX_ON_OFF
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 0
+set dterm_lpf1_dyn_max_hz = 120
+set dterm_lpf1_type = PT2
+set dterm_lpf1_static_hz = 60
+set dterm_lpf2_static_hz = 0
+set anti_gravity_gain = 90
+set iterm_relax_cutoff = 5
+set pidsum_limit = 1000
+set p_pitch = 122
+set i_pitch = 109
+set d_max_pitch = 146
+set f_pitch = 194
+set p_roll = 90
+set d_max_roll = 95
+set f_roll = 143
+set p_yaw = 90
+set f_yaw = 143
+set angle_p_gain = 25
+set angle_limit = 45
+set d_roll = 95
+set d_pitch = 146
+set thrust_linear = 35
+set feedforward_smooth_factor = 20
+set feedforward_jitter_factor = 15
+set feedforward_boost = 5
+set simplified_master_multiplier = 200
+set simplified_i_gain = 50
+set simplified_d_gain = 160
+set simplified_d_max_gain = 0
+set simplified_feedforward_gain = 60
+set simplified_pitch_d_gain = 135
+set simplified_pitch_pi_gain = 130
+set simplified_dterm_filter_multiplier = 80
+set tpa_rate = 70
+set tpa_breakpoint = 1400
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 100
+set pitch_rc_rate = 100
+set yaw_rc_rate = 100
+set roll_srate = 60
+set pitch_srate = 60
+set yaw_srate = 50
+
+# end the command batch
+batch end
+
+# 
+#$ OPTION END

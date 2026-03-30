@@ -7158,7 +7158,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/iFlight/Proxima/PROXIMA O3 DJI 4.5.x.txt",
-      "hash": "836066e90a245ec5261b1ce215c32bafb14f48ff86f463b68bdfbb4fc3f2738e",
+      "hash": "f8440ed35de25aaece8fd2315057d8ec9358364a87749dd77b1e2c4c0db3fb7d",
       "title": "Proxima O3/O4 DJI RC",
       "firmware_version": [
         "4.5"
@@ -9567,6 +9567,40 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/2025.12/bnf/iFlight/Centurion/Centurion O3 CRSF 2025.12.txt",
+      "hash": "d08a7ae20ae871165bebfcac02c93f2a79d0ac8729d404b149f334ae9cb29099",
+      "title": "Centurion O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Centurion"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Centurion/Centurion O3 DJI 2025.12.txt",
+      "hash": "d7f121cb54af5b2cd286eb861ac194e130ba93e3c9001b14b8e91c278356c839",
+      "title": "Centurion O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Centurion"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/2025.12/bnf/iFlight/Chimera7 Pro V2/Chimera7 Pro V2 Analog（1.6w vtx） ELRS 2025.12.txt",
       "hash": "ef95e22045119cfebf56b526450479bc9dc8f60d7fb950baf9f92ae47ebdc41b",
       "title": "Chimera 7 Pro V2 Analog 1.6w vtx CRSF/ELRS",
@@ -9631,6 +9665,354 @@
       "keywords": [
         "iflight",
         "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Chimera9 Pro/Chimera9 Pro Analog（1.6w vtx） ELRS 2025.12.txt",
+      "hash": "e52da96986098487643f139d5fcd4cc9545a2108fe3d02fdd049830ac0aa7c71",
+      "title": "Chimera 9 Pro Analog 1.6w vtx CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Chimera 9 Pro",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Chimera9 Pro/Chimera9 Pro Analog（2.5w vtx） ELRS 2025.12.txt",
+      "hash": "759ccea3b2eed7e961b0f30eda51d504c1fca9d27474f7325354df2965d9e6b4",
+      "title": "Chimera 9 Pro Analog 2.5w vtx CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Chimera 9 Pro",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Chimera9 Pro/Chimera9 Pro O3 CRSF 2025.12.txt",
+      "hash": "0e70c50ec10accd7e274291d1bdfc4434934b2566f5931cfb0ad5369b0510c7d",
+      "title": "Chimera 9 Pro O3 CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Chimera 9 Pro",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Chimera9 Pro/Chimera9 Pro O3 DJI 2025.12.txt",
+      "hash": "13c9007540b543f3a706491cc53b5a2f83bae980b69fe22861ea1ab98e870352",
+      "title": "Chimera 9 Pro O3 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Chimera 9 Pro",
+        "Chimera"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/CineFlow 5/CineFlow 5 O3_O4 CRSF 2025.12.txt",
+      "hash": "ab1bfaefe4396eb590f2226598c59356bd740cb40b090b7b47aebba40bacc9e4",
+      "title": "CineFlow 5 O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "CineFlow 5",
+        "CineFlow"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/CineFlow 5/CineFlow 5 O3_O4 DJI 2025.12.txt",
+      "hash": "48e6a46001e4b065908346f3b338c5772725011ecff8cbfb496760e9ec2c0359",
+      "title": "CineFlow 5 O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "CineFlow 5",
+        "CineFlow"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/CineLR 7/CineLR 7 O3_O4 CRSF 2025.12.txt",
+      "hash": "72dd275f9155d93d6a8bc893c5ec74f7375d622ee50feda1e869531961c39b0b",
+      "title": "CineLR 7 O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "CineLR 7",
+        "CineLR"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/CineLR 7/CineLR 7 O3_O4 DJI 2025.12.txt",
+      "hash": "9079955284581a939b981ee6c4c9cf38a1de8072b6d7363bb18c56202b26d112",
+      "title": "CineLR 7 O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "CineLR 7",
+        "CineLR"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Defender 16/Defender 16 O3 CRSF 2025.12.txt",
+      "hash": "940735491c0362f8a580c8a2cca0cc82a6c835e2146333bacc03896d3871548b",
+      "title": "Defender 16 O3 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Defender 16",
+        "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Defender 16/Defender 16 O3 DJI 2025.12.txt",
+      "hash": "4402e18092da9e41a227a1a17cfb5e6d45fe10a3b2d9355da3c44d7d6869a58f",
+      "title": "Defender 16 O3 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Defender 16",
+        "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Helion 10/Helion O3 O4 CRSF 2025.12.txt",
+      "hash": "8d1a00ef77c8bf0d4f9abc13199edd12a79a65beaf4ef7971c2fc2d106c34606",
+      "title": "Helion O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Helion"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Helion 10/Helion O3 O4 DJI 2025.12.txt",
+      "hash": "2b48633046dab0e9c30bc66d5e39e3f933d6b8ba945a2e1e51edfe1983a0be4c",
+      "title": "Helion O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Helion"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Helion Pro/Helion Pro O4 CRSF 2025.12.txt",
+      "hash": "04cb2ced7a2dfcdb6c493f6c10335baed58ce824adbe8b0c5b500a7d4eb91831",
+      "title": "Helion Pro O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Helion",
+        "Pro"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Helion Pro/Helion Pro O4 DJI 2025.12.txt",
+      "hash": "cd9094f128497f53d2d36697a95483aebf0798ff9ef3bdd63db6a69a111d1b41",
+      "title": "Helion Pro O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Helion",
+        "Pro"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Mach R5 Sport/Mach R5 Sport Analog 600mw CRSF 2025.12.txt",
+      "hash": "cd9d520d97b560a7e6ef4e8f3190cc22c7d62d5316892c4f4ef01a9000ab92d9",
+      "title": "Mach R5 Sport Analog 600mw vtx CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Mach R5 Sport",
+        "Mach",
+        "R5",
+        "Sport"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Mach R5 Sport/Mach R5 Sport HDZero CRSF 2025.12.txt",
+      "hash": "d95c4c7079dbd0ee072f554570b2b00a570c4b770515d9b124e1d8ebcfa914c4",
+      "title": "Mach R5 Sport HDZero CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Mach R5 Sport",
+        "Mach",
+        "R5",
+        "Sport"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Mach R5 Ultra/Mach R5 Ultra Analog 600mw CRSF 2025.12.txt",
+      "hash": "74d56caf70a1c4b15e47e780df8054cee46c82384783b9b23c0072cdeef26eed",
+      "title": "Mach R5 Ultra Analog 600mw VTX CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Mach R5 Ultra",
+        "Mach",
+        "R5",
+        "Ultra"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Nazgul DC5 ECO/Nazgul DC5 ECO O3 O4 CRSF 2025.12.txt",
+      "hash": "c5f4eb50d1d484527456face07e223fc48453fa6985f811fccf7b19265f68a4f",
+      "title": "Nazgul DC5 ECO O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul DC5 ECO",
+        "Nazgul",
+        "ECO"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Nazgul DC5 ECO/Nazgul DC5 ECO O3 O4 DJI 2025.12.txt",
+      "hash": "49e0c0d0b72cf0195bd691dbdf330e38dfed1d9135eadb06394d4a8a6a217d58",
+      "title": "Nazgul DC5 ECO O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul DC5 ECO",
+        "Nazgul",
+        "ECO"
       ],
       "author": "iFlight",
       "force_options_review": true,
@@ -9726,6 +10108,186 @@
         "Nazgul F5 V3",
         "Nazgul",
         "F5"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Nazgul F7/Nazgul F7 O4 DJI 2025.12.txt",
+      "hash": "2bc875bf55ed4abd68d4fd64b19553b891755b30816c9c5db0a56f8769539b97",
+      "title": "Nazgul F7 O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul F7",
+        "Nazgul",
+        "F7"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Nazgul F7/Nazgul F7 O4 ELRS 2025.12.txt",
+      "hash": "2f22b9dfab217aed24496eedc20d6e8980601de15059a67d867dcb485bea5529",
+      "title": "Nazgul F7 O4 CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Nazgul F7",
+        "Nazgul",
+        "F7"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/ProTek 60 Pro/ProTek60 Pro O3 CRSF 2025.12.txt",
+      "hash": "1e1bcef0b8ccfe4c8c11c745a62e3d8857f906223eec86052e163da3f4dd311e",
+      "title": "ProTek 60 Pro O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "ProTek 60 Pro",
+        "ProTek"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/ProTek 60 Pro/ProTek60 Pro O3 DJI 2025.12.txt",
+      "hash": "e17dcab5eec14772f3d0f15aad20e43a59ed4789b39876605c610bd5c44e22b2",
+      "title": "ProTek 60 Pro O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "ProTek 60 Pro",
+        "ProTek"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Proxima/PROXIMA O3 CRSF 2025.12.txt",
+      "hash": "e80b26304f71a6c82ea0bc112c4dc9415cef75e73a86bf110f91e5390d4c12cc",
+      "title": "Proxima O3/O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Proxima"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Proxima/PROXIMA O3 DJI 2025.12.txt",
+      "hash": "b4ae523d4319c9256468e2e5c0156aa93034aa04b9a144f05dd0548637e90cd4",
+      "title": "Proxima O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Proxima"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Specter7/Specter7 O3 O4 CRSF 2025.12.txt",
+      "hash": "159cb722e3956e1ef0f552e990ab41af51719286663c5d8ad9a8666cce770041",
+      "title": "Specter 7 O4 ELRS/CRSF",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Specter 7"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Specter7/Specter7 O3 O4 DJI 2025.12.txt",
+      "hash": "06a1d001220c387d24ee5036776eac1ceac7d4b91c29fbba1d912da8929a81ee",
+      "title": "Specter 7 O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Specter 7"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Taurus X8 Pro Max/X8ProMax O3_O4 DJI 2025.12.txt",
+      "hash": "46da1e5a7d673d83fa06b17123bdbad0e1d5e65057ab0876c67eee1e33a196cb",
+      "title": "Taurus X8 Pro Max O3/O4 DJI RC",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Taurus X8 Pro Max",
+        "Taurus X8",
+        "Taurus"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/bnf/iFlight/Taurus X8 Pro Max/X8ProMax O3_O4 ELRS CRSF 2025.12.txt",
+      "hash": "7724a54b3c5bcea35f1a3d8975235495da3305f2b8285794c98f924b0e1ef07d",
+      "title": "Taurus X8 Pro Max  O3/O4 CRSF/ELRS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Taurus X8 Pro Max",
+        "Taurus X8",
+        "Taurus"
       ],
       "author": "iFlight",
       "force_options_review": true,

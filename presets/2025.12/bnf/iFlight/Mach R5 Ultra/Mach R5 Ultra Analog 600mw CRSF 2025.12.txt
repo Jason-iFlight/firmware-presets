@@ -1,0 +1,241 @@
+#$ TITLE:Mach R5 Ultra Analog 600mw VTX CRSF/ELRS
+#$ FIRMWARE_VERSION: 2025.12
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS:iFlight,Mach R5 Ultra,Mach,R5,Ultra
+#$ AUTHOR: iFlight
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://github.com/Jason-iFlight/firmware-presets/blob/iFlight/Logo.png?raw=true" width="150px" style="display: block; float: right;"/></a>
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Please read instructions carefully! All factory default options have been selected automatically!
+#$ DESCRIPTION: 
+#$ DESCRIPTION:
+#$ DESCRIPTION: WARNING:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* CRSF protocol MUST BE SELECTED when flashing Betaflight 2025.12
+#$ DESCRIPTION:* NOT FOR BEGINNERS! Only for experienced users!
+#$ DESCRIPTION:
+#$ DESCRIPTION: How to:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* Flash Betaflight 2025.12 with Radio Protocol "CRSF" selected
+#$ DESCRIPTION:* Come back & apply this Preset
+#$ DESCRIPTION:* Flash a RC_LINK Preset that fits your Radio Link
+#$ DESCRIPTION:* Calibrate the Accelerometer (Betaflight page1)
+#$ DESCRIPTION:* Remove permanent Angle Mode if necessary (Modes)
+#$ DESCRIPTION:* Have Fun!
+#$ DESCRIPTION:* -
+#$ DESCRIPTION:
+#$ WARNING: You've read the information attached to these factory defaults and take full responsibility for your own gear! Do a test flight in confined area after updating!
+#$ DISCUSSION: https://github.com/Jason-iFlight/firmware-presets
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION BEGIN (CHECKED): Wipe All
+defaults nosave
+#$ OPTION END
+
+
+#$ OPTION BEGIN (CHECKED): Apply All
+# version
+# Betaflight / AT32F435G (A435) 
+# config rev: b892ccd
+
+# start the command batch
+batch start
+
+board_name IFLIGHT_BORG_F435
+manufacturer_id IFRC
+
+# name: Mach R5 Ultra
+
+# feature
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial VCP 1 115200 57600 0 115200
+serial UART1 8192 115200 57600 0 115200
+serial UART2 0 115200 57600 0 115200
+serial UART3 0 115200 57600 0 115200
+serial UART4 0 115200 57600 0 115200
+serial UART5 64 115200 57600 0 115200
+serial UART6 0 115200 57600 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# aux
+aux 0 0 0 1725 2100 0 0
+aux 1 1 1 900 2100 0 0
+aux 2 40 8 900 2100 0 0
+
+# vtxtable
+vtxtable bands 5
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A CUSTOM  5865 5845 5825 5805 5785 5765 5745 5725
+vtxtable band 2 BOSCAM_B B CUSTOM  5733 5752 5771 5790 5809 5828 5847 5866
+vtxtable band 3 BOSCAM_E E CUSTOM  5705 5685 5665    0 5885 5905    0    0
+vtxtable band 4 FATSHARK F CUSTOM  5740 5760 5780 5800 5820 5840 5860 5880
+vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable powerlevels 4
+vtxtable powervalues 25 200 400 600
+vtxtable powerlabels 25 200 400 600
+
+# master
+set motor_idle = 500
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 700
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set gyro_lpf1_dyn_min_hz = 350
+set gyro_lpf1_dyn_max_hz = 700
+set acc_calibration = -14,-19,20,1
+set blackbox_sample_rate = 1/16
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set vbat_max_cell_voltage = 435
+set yaw_motors_reversed = ON
+set small_angle = 180
+set gps_ublox_use_galileo = ON
+set gps_rescue_ground_speed = 1200
+set gps_rescue_descend_rate = 100
+set gps_rescue_allow_arming_without_fix = ON
+set gps_rescue_velocity_i = 30
+set gps_rescue_velocity_d = 20
+set pid_process_denom = 2
+set simplified_gyro_filter_multiplier = 140
+set osd_warn_bitmask = 57215
+set osd_link_quality_alarm = 70
+set osd_rssi_dbm_alarm = -100
+set osd_cap_alarm = 20000
+set osd_vbat_pos = 341
+set osd_rssi_pos = 88
+set osd_link_quality_pos = 2391
+set osd_link_tx_power_pos = 258
+set osd_rssi_dbm_pos = 2359
+set osd_rsnr_pos = 341
+set osd_tim_1_pos = 341
+set osd_tim_2_pos = 2401
+set osd_remaining_time_estimate_pos = 341
+set osd_flymode_pos = 44
+set osd_anti_gravity_pos = 341
+set osd_g_force_pos = 341
+set osd_throttle_pos = 312
+set osd_vtx_channel_pos = 2421
+set osd_crosshairs_pos = 312
+set osd_ah_sbar_pos = 313
+set osd_ah_pos = 185
+set osd_current_pos = 290
+set osd_mah_drawn_pos = 353
+set osd_wh_drawn_pos = 341
+set osd_motor_diag_pos = 341
+set osd_craft_name_pos = 384
+set osd_pilot_name_pos = 341
+set osd_gps_speed_pos = 269
+set osd_gps_lon_pos = 341
+set osd_gps_lat_pos = 341
+set osd_gps_sats_pos = 33
+set osd_home_dir_pos = 396
+set osd_home_dist_pos = 398
+set osd_flight_dist_pos = 153
+set osd_compass_bar_pos = 341
+set osd_altitude_pos = 18721
+set osd_pid_roll_pos = 341
+set osd_pid_pitch_pos = 341
+set osd_pid_yaw_pos = 341
+set osd_debug_pos = 341
+set osd_power_pos = 226
+set osd_pidrate_profile_pos = 341
+set osd_warnings_pos = 14666
+set osd_avg_cell_voltage_pos = 2369
+set osd_pit_ang_pos = 341
+set osd_rol_ang_pos = 341
+set osd_battery_usage_pos = 341
+set osd_disarmed_pos = 2251
+set osd_nheading_pos = 341
+set osd_up_down_reference_pos = 312
+set osd_ready_mode_pos = 341
+set osd_nvario_pos = 341
+set osd_esc_tmp_pos = 341
+set osd_esc_rpm_pos = 341
+set osd_esc_rpm_freq_pos = 341
+set osd_rtc_date_time_pos = 341
+set osd_adjustment_range_pos = 341
+set osd_flip_arrow_pos = 341
+set osd_core_temp_pos = 341
+set osd_log_status_pos = 341
+set osd_stick_overlay_left_pos = 341
+set osd_stick_overlay_right_pos = 341
+set osd_rate_profile_name_pos = 341
+set osd_pid_profile_name_pos = 341
+set osd_profile_name_pos = 341
+set osd_rcchannels_pos = 341
+set osd_camera_frame_pos = 142
+set osd_efficiency_pos = 341
+set osd_total_flights_pos = 341
+set osd_aux_pos = 341
+set osd_sys_goggle_voltage_pos = 341
+set osd_sys_vtx_voltage_pos = 341
+set osd_sys_bitrate_pos = 341
+set osd_sys_delay_pos = 341
+set osd_sys_distance_pos = 341
+set osd_sys_lq_pos = 341
+set osd_sys_goggle_dvr_pos = 341
+set osd_sys_vtx_dvr_pos = 341
+set osd_sys_warnings_pos = 341
+set osd_sys_vtx_temp_pos = 341
+set osd_sys_fan_speed_pos = 341
+set vtx_band = 5
+set vtx_channel = 3
+set vtx_power = 1
+set vtx_freq = 5732
+set pinio_box = 40,41,255,255
+set craft_name = Mach R5 Ultra
+set box_user_1_name = VTX_ON_OFF
+
+profile 0
+
+# profile 0
+set vbat_sag_compensation = 100
+set iterm_relax = RP_INC
+set iterm_relax_cutoff = 30
+set pidsum_limit = 1000
+set p_pitch = 33
+set i_pitch = 75
+set d_pitch = 19
+set f_pitch = 99
+set p_roll = 34
+set i_roll = 75
+set d_roll = 20
+set f_roll = 100
+set p_yaw = 34
+set i_yaw = 75
+set f_yaw = 100
+set angle_limit = 45
+set horizon_level_strength = 50
+set d_max_roll = 25
+set d_max_pitch = 25
+set thrust_linear = 20
+set feedforward_smooth_factor = 0
+set feedforward_boost = 5
+set simplified_master_multiplier = 80
+set simplified_i_gain = 125
+set simplified_d_gain = 85
+set simplified_pi_gain = 95
+set simplified_d_max_gain = 80
+set simplified_feedforward_gain = 105
+set simplified_pitch_d_gain = 85
+set simplified_pitch_pi_gain = 95
+
+rateprofile 0
+
+# end the command batch
+batch end
+
+#
+#$ OPTION END
