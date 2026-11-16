@@ -108,7 +108,7 @@ set debug_mode = GYRO_SCALED
 set gyro_1_sensor_align = CW180FLIP
 set gyro_1_align_yaw = 1800
 set rpm_filter_min_hz = 120
-set craft_name = Defender Lite
+set craft_name = Defender Lite X
 set box_user_1_name = VTX_ON_OFF
 set force_battery_cell_count = 2
 
