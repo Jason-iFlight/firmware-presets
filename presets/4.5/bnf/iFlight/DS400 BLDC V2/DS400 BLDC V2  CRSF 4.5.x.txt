@@ -1,0 +1,143 @@
+#$ TITLE:DS400 BLDC V2  CRSF/ELRS
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS:iFlight,DS400 BLDC V2,DS,400,BLDC,V2
+#$ AUTHOR: iFlight
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://github.com/Jason-iFlight/firmware-presets/blob/iFlight/Logo.png?raw=true" width="150px" style="display: block; float: right;"/></a>
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Please read instructions carefully! All factory default options have been selected automatically!
+#$ DESCRIPTION: 
+#$ DESCRIPTION:
+#$ DESCRIPTION: WARNING:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* CRSF protocol MUST BE SELECTED when flashing Betaflight 4.5.x.
+#$ DESCRIPTION:* NOT FOR BEGINNERS! Only for experienced users!
+#$ DESCRIPTION:
+#$ DESCRIPTION: How to:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* Flash Betaflight 4.5.x with Radio Protocol "CRSF" selected
+#$ DESCRIPTION:* Come back & apply this Preset
+#$ DESCRIPTION:* Flash a RC_LINK Preset that fits your Radio Link
+#$ DESCRIPTION:* Calibrate the Accelerometer (Betaflight page1)
+#$ DESCRIPTION:* Change Canvas Mode to HD on your DJI Goggle (Settings-Display-)
+#$ DESCRIPTION:* Remove permanent Angle Mode if necessary (Modes)
+#$ DESCRIPTION:* Have Fun!
+#$ DESCRIPTION:* -
+#$ DESCRIPTION:
+#$ WARNING: You've read the information attached to these factory defaults and take full responsibility for your own gear! Do a test flight in confined area after updating!
+#$ DISCUSSION: https://github.com/Jason-iFlight/firmware-presets
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION BEGIN (CHECKED): Wipe All
+defaults nosave
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Apply All
+
+
+# version
+# Betaflight / STM32F7X2 (S7X2) 4.5.2 Apr 30 2026 / 17:52:55 (024f8e13d) MSP API: 1.46
+# config rev: ed1de1a
+
+# start the command batch
+batch start
+
+board_name IFLIGHT_BLITZ_F722
+manufacturer_id IFRC
+
+# name: DS 400
+
+# feature
+feature RANGEFINDER
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 1 64 115200 57600 0 115200
+serial 4 1 115200 57600 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# led
+led 0 0,0::L:13
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 900 2100 0 0
+
+# master
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 0
+set gyro_notch1_hz = 62
+set gyro_notch1_cutoff = 40
+set gyro_notch2_hz = 55
+set gyro_notch2_cutoff = 45
+set dyn_notch_count = 2
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 60
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf1_dyn_max_hz = 0
+set acc_calibration = -33,6,43,1
+set rc_smoothing_auto_factor = 52
+set blackbox_sample_rate = 1/16
+set dshot_bidir = ON
+set mixer_type = EZLANDING
+set small_angle = 180
+set simplified_gyro_filter = OFF
+set ledstrip_brightness = 30
+set debug_mode = ATTITUDE
+set craft_name = DS 400
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 0
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf2_static_hz = 0
+set vbat_sag_compensation = 100
+set iterm_relax = RP_INC
+set iterm_relax_cutoff = 10
+set p_pitch = 61
+set i_pitch = 54
+set d_pitch = 64
+set f_pitch = 162
+set p_roll = 58
+set i_roll = 52
+set d_roll = 55
+set f_roll = 156
+set p_yaw = 58
+set i_yaw = 52
+set f_yaw = 156
+set angle_p_gain = 55
+set d_min_roll = 33
+set d_min_pitch = 37
+set d_max_gain = 30
+set thrust_linear = 20
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 45
+set feedforward_jitter_factor = 8
+set dyn_idle_min_rpm = 30
+set simplified_master_multiplier = 130
+set simplified_i_gain = 50
+set simplified_d_gain = 85
+set simplified_dmax_gain = 200
+
+rateprofile 0
+
+# rateprofile 0
+set yaw_srate = 36
+
+# end the command batch
+batch end
+
+# 
+#$ OPTION END

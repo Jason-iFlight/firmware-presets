@@ -1,0 +1,201 @@
+
+#$ TITLE:NOVA 3 HDZERO CRSF/ELRS
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS:iFlight,NOVA 3,NOVA,3
+#$ AUTHOR: iFlight
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://github.com/Jason-iFlight/firmware-presets/blob/iFlight/Logo.png?raw=true" width="150px" style="display: block; float: right;"/></a>
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Please read instructions carefully! All factory default options have been selected automatically!
+#$ DESCRIPTION: 
+#$ DESCRIPTION:
+#$ DESCRIPTION: WARNING:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* CRSF protocol MUST BE SELECTED when flashing Betaflight 4.5.x.
+#$ DESCRIPTION:* NOT FOR BEGINNERS! Only for experienced users!
+#$ DESCRIPTION:
+#$ DESCRIPTION: How to:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* Flash Betaflight 4.5.x with Radio Protocol "CRSF" selected
+#$ DESCRIPTION:* Come back & apply this Preset
+#$ DESCRIPTION:* Flash a RC_LINK Preset that fits your Radio Link
+#$ DESCRIPTION:* Calibrate the Accelerometer (Betaflight page1)
+#$ DESCRIPTION:* Change Canvas Mode to HD on your DJI Goggle (Settings-Display-)
+#$ DESCRIPTION:* Remove permanent Angle Mode if necessary (Modes)
+#$ DESCRIPTION:* Have Fun!
+#$ DESCRIPTION:* -
+#$ DESCRIPTION:
+#$ WARNING: You've read the information attached to these factory defaults and take full responsibility for your own gear! Do a test flight in confined area after updating!
+#$ DISCUSSION: https://github.com/Jason-iFlight/firmware-presets
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION BEGIN (CHECKED): Wipe All
+defaults nosave
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Apply All
+
+# version
+# Betaflight / STM32G47X (SG47) 4.5.3 Nov 20 2025 / 14:57:06 (57c3471dc) MSP API: 1.46
+
+# start the command batch
+batch start
+
+# reset configuration to default settings
+defaults nosave
+
+board_name HDZERO_GAMMA
+manufacturer_id HDZO
+mcu_id 001a00425246501920373834
+signature 
+
+# name: NOVA 3
+
+# feature
+feature TELEMETRY
+feature OSD
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# aux
+aux 0 0 0 1800 2100 0 0
+
+# vtxtable
+vtxtable bands 6
+vtxtable channels 8
+vtxtable band 1 BOSCAM_A A CUSTOM     0    0    0    0    0    0    0    0
+vtxtable band 2 BOSCAM_B B CUSTOM     0    0    0    0    0    0    0    0
+vtxtable band 3 BOSCAM_E E CUSTOM  5705    0    0    0    0    0    0    0
+vtxtable band 4 FATSHARK F CUSTOM  5740 5760    0 5800    0    0    0    0
+vtxtable band 5 RACEBAND R CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 6 LOWBAND  L CUSTOM     0    0    0    0    0    0    0    0
+vtxtable powerlevels 3
+vtxtable powervalues 14 23 0
+vtxtable powerlabels 25 200 0
+
+# master
+set gyro_lpf1_static_hz = 0
+set gyro_lpf2_static_hz = 0
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set gyro_lpf1_dyn_min_hz = 225
+set gyro_lpf1_dyn_max_hz = 450
+set acc_hardware = NONE
+set acc_calibration = -173,14,-41,1
+set baro_hardware = NONE
+set min_check = 1020
+set max_check = 2000
+set min_throttle = 1065
+set dshot_idle_value = 520
+set dshot_bidir = ON
+set dshot_bitbang = AUTO
+set motor_pwm_protocol = DSHOT300
+set motor_poles = 12
+set failsafe_recovery_delay = 1
+set align_board_yaw = 45
+set vbat_duration_for_warning = 2
+set vbat_duration_for_critical = 1
+set ibata_scale = 250
+set yaw_motors_reversed = ON
+set small_angle = 180
+set pid_process_denom = 2
+set simplified_gyro_filter_multiplier = 90
+set osd_rssi_alarm = 5
+set osd_rssi_dbm_alarm = -45
+set osd_rsnr_alarm = -1
+set osd_cap_alarm = 2150
+set osd_alt_alarm = 98
+set osd_tim1 = 1792
+set osd_tim2 = 1059
+set osd_vbat_pos = 2086
+set osd_vtx_channel_pos = 3109
+set osd_craft_name_pos = 2102
+set osd_warnings_pos = 14835
+set osd_stat_bitmask = 1879048228
+set osd_menu_background = BLACK
+set osd_canvas_width = 50
+set osd_canvas_height = 18
+set system_hse_mhz = 0
+set vtx_band = 5
+set vtx_channel = 3
+set vtx_power = 1
+set vtx_freq = 5732
+set displayport_msp_fonts = 0,0,0,0
+set gyro_1_sensor_align = CW270FLIP
+set gyro_1_align_yaw = 2700
+set craft_name = NOVA 3
+
+profile 0
+
+# profile 0
+set dterm_lpf1_dyn_min_hz = 82
+set dterm_lpf1_dyn_max_hz = 165
+set dterm_lpf1_static_hz = 82
+set dterm_lpf2_static_hz = 165
+set vbat_sag_compensation = 50
+set anti_gravity_gain = 60
+set p_pitch = 48
+set i_pitch = 100
+set d_pitch = 40
+set f_pitch = 100
+set i_roll = 95
+set d_roll = 38
+set p_yaw = 60
+set i_yaw = 100
+set f_yaw = 100
+set d_min_roll = 26
+set d_min_pitch = 28
+set d_max_gain = 35
+set d_max_advance = 0
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 65
+set feedforward_boost = 20
+set feedforward_max_rate_limit = 100
+set dyn_idle_min_rpm = 25
+set simplified_pids_mode = OFF
+set simplified_dterm_filter_multiplier = 110
+set tpa_rate = 50
+set tpa_breakpoint = 1300
+
+profile 1
+
+profile 2
+
+profile 3
+
+# restore original profile selection
+profile 0
+
+rateprofile 0
+
+# rateprofile 0
+set rates_type = BETAFLIGHT
+set roll_rc_rate = 100
+set pitch_rc_rate = 100
+set yaw_rc_rate = 100
+set roll_srate = 70
+set pitch_srate = 70
+set yaw_srate = 70
+set throttle_limit_type = SCALE
+
+rateprofile 1
+
+rateprofile 2
+
+rateprofile 3
+
+# restore original rateprofile selection
+rateprofile 0
+
+# save configuration
+
+# 
+#$ OPTION END

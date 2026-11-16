@@ -1,0 +1,158 @@
+#$ TITLE:A3 Analog 25mw VTX CRSF/ELRS
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: BNF
+#$ STATUS: EXPERIMENTAL
+#$ KEYWORDS:iFlight,A3
+#$ AUTHOR: iFlight
+
+#$ PARSER: MARKED
+
+#$ DESCRIPTION: <a href="https://shop.iflight-rc.com/"><img src="https://github.com/Jason-iFlight/firmware-presets/blob/iFlight/Logo.png?raw=true" width="150px" style="display: block; float: right;"/></a>
+#$ DESCRIPTION:
+#$ DESCRIPTION: 
+#$ DESCRIPTION: Please read instructions carefully! All factory default options have been selected automatically!
+#$ DESCRIPTION: 
+#$ DESCRIPTION:
+#$ DESCRIPTION: WARNING:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* CRSF protocol MUST BE SELECTED when flashing Betaflight 4.5.x.
+#$ DESCRIPTION:* NOT FOR BEGINNERS! Only for experienced users!
+#$ DESCRIPTION:
+#$ DESCRIPTION: How to:
+#$ DESCRIPTION:-------------
+#$ DESCRIPTION:* Flash Betaflight 4.5.x with Radio Protocol "CRSF" selected
+#$ DESCRIPTION:* Come back & apply this Preset
+#$ DESCRIPTION:* Flash a RC_LINK Preset that fits your Radio Link
+#$ DESCRIPTION:* Calibrate the Accelerometer (Betaflight page1)
+#$ DESCRIPTION:* Change Canvas Mode to HD on your DJI Goggle (Settings-Display-)
+#$ DESCRIPTION:* Remove permanent Angle Mode if necessary (Modes)
+#$ DESCRIPTION:* Have Fun!
+#$ DESCRIPTION:* -
+#$ DESCRIPTION:
+#$ WARNING: You've read the information attached to these factory defaults and take full responsibility for your own gear! Do a test flight in confined area after updating!
+#$ DISCUSSION: https://github.com/Jason-iFlight/firmware-presets
+
+#$ FORCE_OPTIONS_REVIEW: TRUE
+
+#$ OPTION BEGIN (CHECKED): Wipe All
+defaults nosave
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Apply All
+
+
+# version
+# Betaflight / STM32F405 (S405) 4.5.4 Jun 13 2026 / 16:18:43 (norevision) MSP API: 1.46
+# config rev: b6288da
+
+# start the command batch
+batch start
+
+board_name IFLIGHT_BLITZ_F405
+manufacturer_id IFRC
+
+# name: A3
+
+# feature
+feature RANGEFINDER
+feature TELEMETRY
+feature LED_STRIP
+feature OSD
+
+# serial
+serial 0 8192 115200 57600 0 115200
+serial 1 64 115200 57600 0 115200
+
+# beacon
+beacon RX_LOST
+beacon RX_SET
+
+# aux
+aux 0 0 0 1700 2100 0 0
+aux 1 1 1 900 2100 0 0
+
+# vtxtable
+vtxtable bands 2
+vtxtable channels 8
+vtxtable band 1 BAND_A   A CUSTOM  5658 5695 5732 5769 5806 5843 5880 5917
+vtxtable band 2 BAND_B   B CUSTOM  5362 5399 5436 5473 5510 5547 5584 5621
+vtxtable powerlevels 1
+vtxtable powervalues 25
+vtxtable powerlabels 25
+
+# master
+set gyro_lpf1_static_hz = 0
+set dyn_notch_count = 1
+set dyn_notch_q = 500
+set dyn_notch_min_hz = 70
+set dyn_notch_max_hz = 300
+set gyro_lpf1_dyn_min_hz = 0
+set acc_calibration = -7,-4,-60,1
+set rc_smoothing_auto_factor = 25
+set rc_smoothing_auto_factor_throttle = 25
+set blackbox_sample_rate = 1/16
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_poles = 12
+set yaw_motors_reversed = ON
+set small_angle = 180
+set pid_process_denom = 2
+set osd_rssi_dbm_alarm = -100
+set osd_link_quality_pos = 2409
+set osd_rssi_dbm_pos = 2416
+set osd_tim_2_pos = 2401
+set osd_throttle_pos = 257
+set osd_current_pos = 320
+set osd_altitude_pos = 289
+set osd_power_pos = 288
+set osd_warnings_pos = 14569
+set osd_avg_cell_voltage_pos = 2369
+set osd_disarmed_pos = 2379
+set osd_displayport_device = AUTO
+set osd_canvas_width = 30
+set osd_canvas_height = 13
+set debug_mode = GYRO_SCALED
+set vtx_band = 1
+set vtx_channel = 3
+set vtx_power = 1
+set vtx_freq = 5732
+set vcd_video_system = NTSC
+set craft_name = A3
+
+profile 0
+
+# profile 0
+set vbat_sag_compensation = 100
+set iterm_relax = RP_INC
+set iterm_relax_cutoff = 30
+set p_pitch = 42
+set i_pitch = 75
+set d_pitch = 32
+set f_pitch = 134
+set p_roll = 40
+set i_roll = 72
+set d_roll = 28
+set f_roll = 129
+set p_yaw = 40
+set i_yaw = 72
+set f_yaw = 129
+set d_min_roll = 18
+set d_min_pitch = 21
+set feedforward_averaging = 2_POINT
+set feedforward_smooth_factor = 35
+set feedforward_jitter_factor = 4
+set feedforward_boost = 18
+set dyn_idle_min_rpm = 65
+set simplified_master_multiplier = 90
+set simplified_d_gain = 70
+set simplified_dmax_gain = 150
+set simplified_feedforward_gain = 120
+
+rateprofile 0
+
+# end the command batch
+batch end
+
+# 
+
+#$ OPTION END

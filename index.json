@@ -244,6 +244,7 @@
       "4",
       "4 inch",
       "4\"",
+      "400",
       "4in",
       "4in1",
       "4S",
@@ -276,6 +277,7 @@
       "9\"",
       "9in",
       "9ms",
+      "A3",
       "A85",
       "ACCESS",
       "acro",
@@ -309,6 +311,7 @@
       "betafpv",
       "bezerkrc",
       "blackbox",
+      "BLDC",
       "BMS",
       "BMSThomas",
       "BOB",
@@ -360,6 +363,7 @@
       "Defender 16",
       "Defender 20",
       "Defender 20 lite",
+      "Defender 20 lite x",
       "Defender 25",
       "der_V",
       "diatone",
@@ -372,6 +376,8 @@
       "divimath",
       "DJI",
       "dominator",
+      "DS",
+      "DS400 BLDC V2",
       "DShot telemetry",
       "eachine",
       "ECO",
@@ -454,8 +460,10 @@
       "loRanger",
       "lr5",
       "Mach",
+      "Mach R3",
       "Mach R5 Sport",
       "Mach R5 Ultra",
+      "Mach R5 Ultra Traine",
       "mamba",
       "Marek",
       "mck",
@@ -492,6 +500,8 @@
       "no rpm",
       "noisy",
       "normal",
+      "NOVA",
+      "NOVA 3",
       "O3",
       "O3 air unit",
       "Omni",
@@ -514,6 +524,7 @@
       "Pure Race",
       "quaddiction",
       "quick",
+      "R3",
       "R5",
       "R9",
       "race",
@@ -589,6 +600,7 @@
       "Taurus X8",
       "Taurus X8 PRO",
       "Taurus X8 Pro Max",
+      "Taurus X8 Pro Max V2",
       "Taurus X8 V3",
       "TBS",
       "tbs sa",
@@ -600,10 +612,13 @@
       "TinyApe",
       "TinyTrainer",
       "TITAN",
+      "TITAN X3",
       "TITAN X5",
+      "TITAN X7",
       "toothpic",
       "Toothpick",
       "Tracer",
+      "Traine",
       "trainer",
       "tramp",
       "transmitter",
@@ -624,6 +639,7 @@
       "upside down",
       "utility",
       "UWL",
+      "V2",
       "vanover",
       "very",
       "very clean",
@@ -644,7 +660,9 @@
       "whooptopia",
       "world champion",
       "wtfos",
+      "X3",
       "X5",
+      "X7",
       "X8",
       "YAROSFPV",
       "youtube",
@@ -6645,6 +6663,23 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/A3/A3  Analog CRSF 25mw.txt",
+      "hash": "ebceacd1953f90df8e1917911ba538cce668d85b2c9d96beb95cc20cdd02eedd",
+      "title": "A3 Analog 25mw VTX CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "A3"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/A85/Alpha A85 Analog ELRS 4.5.x 25mw.txt",
       "hash": "3fc7731083290481e80a3e9717c1248c83754b36986b551742d681fc1b44624d",
       "title": "Alpha A85 Analog 25mw vtx CRSF/ELRS",
@@ -7179,6 +7214,42 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/Defender 20 Lite X/Defender 20 Lite x O4 CRSF 4.5.x.txt",
+      "hash": "c4c6f9400b51cb813425980490c98a6ca04c83dc515413f8d9fbe3bdd6a8292c",
+      "title": "Defender 20 lite x O4 ELRS/CRSF",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Defender 20 lite x",
+        "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Defender 20 Lite X/Defender 20 Lite x O4 DJI 4.5.x.txt",
+      "hash": "90c6dfa8ce86be22c5dfb9a27a475fd6f4e7833c63536caac5a048eea9e0eaf8",
+      "title": "Defender 20 lite x O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Defender 20 lite x",
+        "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/Defender 25/Defender 25  O3 CRSF 4.5.0.txt",
       "hash": "358292d9c9d7f09e43624e469f8c1a2421ac76f1fa4a301f233ebd5f7111738b",
       "title": "Defender 25 O3 ELRS/CRSF",
@@ -7227,6 +7298,27 @@
         "iFlight",
         "Defender 12",
         "Defender"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/DS400 BLDC V2/DS400 BLDC V2  CRSF 4.5.x.txt",
+      "hash": "64813943e58de646c7721f285f3d4e43165c34664082f5530892bfb903c2e49f",
+      "title": "DS400 BLDC V2  CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "DS400 BLDC V2",
+        "DS",
+        "400",
+        "BLDC",
+        "V2"
       ],
       "author": "iFlight",
       "force_options_review": true,
@@ -7331,6 +7423,25 @@
       "keywords": [
         "iFlight",
         "IH3"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Mach R3/Mach R3  Analog CRSF 200mw.txt",
+      "hash": "700d66c49cb501095ec831fabddaebc6ef12f4b57899a78e3e52348e209fa385",
+      "title": "Mach R3 Analog 200mw VTX CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Mach R3",
+        "Mach",
+        "R3"
       ],
       "author": "iFlight",
       "force_options_review": true,
@@ -7838,6 +7949,25 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/NOVA 3/NOVA 3 HDZero CRSF .txt",
+      "hash": "bf98e216c91018843a59d05a2fefcfeb6ad9b1e1d6e0bc595e280634c1ad979f",
+      "title": "NOVA 3 HDZERO CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "NOVA 3",
+        "NOVA",
+        "3"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/Protek 35/ProTek35 Analog 1.6w vtx CRSF 4.5.x.txt",
       "hash": "e6ebb8bb7d7fc09bedf0d72ac2232b9a137a0fa6f6fd10fe05cc8e65369702fb",
       "title": "ProTek 35 V1.4 Analog 1.6w vtx CRSF/ELRS",
@@ -8010,6 +8140,48 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/R5 Ultra Traine/Mach R5 Ultra Traine  Analog CRSF 200mw.txt",
+      "hash": "998a9a3f8e63c0fe850e70d29278a6d86eda6e4fb9c6755e21235252e40db2bb",
+      "title": "Mach R5 Ultra Traine Analog 200mw VTX CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Mach R5 Ultra Traine",
+        "Mach",
+        "R5",
+        "Ultra",
+        "Traine"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/R5 Ultra Traine/Mach R5 Ultra Traine  HDZero CRSF .txt",
+      "hash": "dba4fa89b4d8ba906c5c272e65db0cafd86c3a1071abb8ddaa455b512732899c",
+      "title": "Mach R5 Ultra Traine HDZERO CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Mach R5 Ultra Traine",
+        "Mach",
+        "R5",
+        "Ultra",
+        "Traine"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/Specter7/Specter7 O4 CRSF 4.5.x.txt",
       "hash": "6b6cb5bbfc0e449af3250619fcc4cdfbadf35fed949bc7e002f0d3a95af193e7",
       "title": "Specter 7 O4 ELRS/CRSF",
@@ -8120,6 +8292,46 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro Max V2/IFLIGHT_X8_Pro_Max V2_DJI_SBUS.txt",
+      "hash": "a7dfb4d6c1bcfd4933ccca27781956b2e6aeb391f782985675fddd8186af2839",
+      "title": "Taurus X8 Pro Max V2 O3/O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Taurus X8 Pro Max V2",
+        "Taurus X8",
+        "Taurus",
+        "v2"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 Pro Max V2/IFLIGHT_X8_Pro_Max V2_ELRS_CRSF.txt",
+      "hash": "74a23d02822ada73e2022d8fceb761eb977072a21ff1ec4135fd47732f00fb44",
+      "title": "Taurus X8 Pro Max V2  O3/O4 CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "Taurus X8 Pro Max V2",
+        "Taurus X8",
+        "Taurus",
+        "v2"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/Taurus X8 V3/Taurus X8 V3 O3 DJI 4.5.0.txt",
       "hash": "19387743b5f1254b10967a35510691a9a53f9154e4468d4e277d74b2f9b12744",
       "title": "Taurus X8 V3  O3/O4 DJI RC",
@@ -8158,6 +8370,44 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/bnf/iFlight/TITAN X3/TITAN X3 O4 CRSF 4.5.x.txt",
+      "hash": "dbc40c1ebf198c6ba4bc6167942d0a7a7f44719e0cebca09d6e3cab58c72b6a2",
+      "title": "TITAN X3 O4 CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "TITAN X3",
+        "TITAN",
+        "X3"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/TITAN X3/TITAN X3 O4 DJI 4.5.x.txt",
+      "hash": "4aa49c50462ea4eff737667fcf709c92e69316afd9c2e98d06a5b4030532bcc2",
+      "title": "TITAN X3 O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "TITAN X3",
+        "TITAN",
+        "X3"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/iFlight/TITAN X5/TITAN X5 O4 CRSF 4.5.x.txt",
       "hash": "06c65dfa260f1890ccd328bbae858095b5741752aa7207a9724b7f90abcd3a98",
       "title": "TITAN X5 O4 CRSF/ELRS",
@@ -8190,6 +8440,44 @@
         "TITAN X5",
         "TITAN",
         "X5"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/TITAN X7/TITAN X7 O4 CRSF 4.5.x.txt",
+      "hash": "f2c8fba904293dea7dd537b11895a665a319caed0f3256f9a226b52c174961ea",
+      "title": "TITAN X7 O4 CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "TITAN X7",
+        "TITAN",
+        "X7"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/TITAN X7/TITAN X7 O4 DJI 4.5.x.txt",
+      "hash": "5e289fb0484e390fb84a8141440f8cf67a3c0baf735db240bfa9e02f502aa905",
+      "title": "TITAN X7 O4 DJI RC",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "TITAN X7",
+        "TITAN",
+        "X7"
       ],
       "author": "iFlight",
       "force_options_review": true,
