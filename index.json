@@ -612,6 +612,7 @@
       "TinyApe",
       "TinyTrainer",
       "TITAN",
+      "TITAN X2",
       "TITAN X3",
       "TITAN X5",
       "TITAN X7",
@@ -660,6 +661,7 @@
       "whooptopia",
       "world champion",
       "wtfos",
+      "X2",
       "X3",
       "X5",
       "X7",
@@ -8364,6 +8366,25 @@
         "Taurus X8 V3",
         "Taurus",
         "X8"
+      ],
+      "author": "iFlight",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/bnf/iFlight/TITAN X2/TITAN X2 O4 CRSF 4.5.x.txt",
+      "hash": "7dc016ccd8af4f088c366e500d7c6c234f88d8ce562248319a195f6bc3aa4277",
+      "title": "TITAN X2 O4 CRSF/ELRS",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "iFlight",
+        "TITAN X2",
+        "TITAN",
+        "X2"
       ],
       "author": "iFlight",
       "force_options_review": true,
